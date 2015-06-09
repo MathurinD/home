@@ -1,0 +1,41 @@
+aucfunctionfunctionglmnety	prob	w
+auc.matfunctionfunctionglmnety	prob	weightsrep(1, nrow(y))
+coefnormfunctionfunctionglmnetcoeflist	q1
+coxnetfunctionfunctionglmnetx	is.sparse	ix	jx	y	weights	offset	alpha	nobs	nvars	jd	vp	cl	ne	nx	nlam	flmin	ulam	thresh	isd	vnames	maxit
+coxnet.deviancefunctionfunctionglmnetpredNULL	y	x0	offset	weightsNULL	betaNULL
+cv.coxnetfunctionfunctionglmnetoutlist	lambda	x	y	weights	offset	foldid	type.measure	grouped	keepFALSE
+cv.elnetfunctionfunctionglmnetoutlist	lambda	x	y	weights	offset	foldid	type.measure	grouped	keepFALSE
+cv.fishnetfunctionfunctionglmnetoutlist	lambda	x	y	weights	offset	foldid	type.measure	grouped	keepFALSE
+cv.glmnetfunctionfunctionglmnetx	y	weights	offsetNULL	lambdaNULL	type.measurec("mse", "deviance", "class", "auc", "mae")	nfolds10	foldid	groupedTRUE	keepFALSE	parallelFALSE	...
+cv.lognetfunctionfunctionglmnetoutlist	lambda	x	y	weights	offset	foldid	type.measure	grouped	keepFALSE
+cv.mrelnetfunctionfunctionglmnetoutlist	lambda	x	y	weights	offset	foldid	type.measure	grouped	keepFALSE
+cv.multnetfunctionfunctionglmnetoutlist	lambda	x	y	weights	offset	foldid	type.measure	grouped	keepFALSE
+cvcomputefunctionfunctionglmnetmat	weights	foldid	nlams
+elnetfunctionfunctionglmnetx	is.sparse	ix	jx	y	weights	offset	type.gaussianc("covariance", "naive")	alpha	nobs	nvars	jd	vp	cl	ne	nx	nlam	flmin	ulam	thresh	isd	intr	vnames	maxit
+fishnetfunctionfunctionglmnetx	is.sparse	ix	jx	y	weights	offset	alpha	nobs	nvars	jd	vp	cl	ne	nx	nlam	flmin	ulam	thresh	isd	intr	vnames	maxit
+getcoeffunctionfunctionglmnetfit	nvars	nx	vnames
+getcoef.multinomialfunctionfunctionglmnetfit	nvars	nx	vnames	nc	classnames	center.interceptTRUE
+getminfunctionfunctionglmnetlambda	cvm	cvsd
+glmnetfunctionfunctionglmnetx	y	familyc("gaussian", "binomial", "poisson", "multinomial", "cox", "mgaussian")	weights	offsetNULL	alpha1	nlambda100	lambda.min.ratioifelse(nobs < nvars, 0.01, 1e-04)	lambdaNULL	standardizeTRUE	interceptTRUE	thresh1e-07	dfmaxnvars + 1	pmaxmin(dfmax * 2 + 20, nvars)	exclude	penalty.factorrep(1, nvars)	lower.limits-Inf	upper.limitsInf	maxit1e+05	type.gaussianifelse(nvars < 500, "covariance", "naive")	type.logisticc("Newton", "modified.Newton")	standardize.responseFALSE	type.multinomialc("ungrouped", "grouped")
+glmnet_softmaxfunctionfunctionglmnetx
+glmnet.controlfunctionfunctionglmnetfdev1e-05	devmax0.999	eps1e-06	big9.9e+35	mnlam5	pmin1e-09	exmx250	prec1e-10	mxit100	factoryFALSE
+jerrfunctionfunctionglmnetn	maxit	pmax	family
+jerr.coxnetfunctionfunctionglmnetn	maxit	pmax
+jerr.elnetfunctionfunctionglmnetn	maxit	pmax
+jerr.fishnetfunctionfunctionglmnetn	maxit	pmax
+jerr.lognetfunctionfunctionglmnetn	maxit	pmax
+jerr.mrelnetfunctionfunctionglmnetn	maxit	pmax
+lambda.interpfunctionfunctionglmnetlambda	s
+lognetfunctionfunctionglmnetx	is.sparse	ix	jx	y	weights	offset	alpha	nobs	nvars	jd	vp	cl	ne	nx	nlam	flmin	ulam	thresh	isd	intr	vnames	maxit	kopt	family
+mrelnetfunctionfunctionglmnetx	is.sparse	ix	jx	y	weights	offset	alpha	nobs	nvars	jd	vp	cl	ne	nx	nlam	flmin	ulam	thresh	isd	jsd	intr	vnames	maxit
+na.meanfunctionfunctionglmnetx
+nonzeroCoeffunctionfunctionglmnetbeta	bystepFALSE
+plotCoeffunctionfunctionglmnetbeta	norm	lambda	df	dev	labelFALSE	xvarc("norm", "lambda", "dev")	xlab	ylab"Coefficients"	...
+predict.coxnetfunctionfunctionglmnetobject	newx	sNULL	typec("link", "response", "coefficients", "nonzero")	exactFALSE	offset	...
+predict.elnetfunctionfunctionglmnetobject	newx	sNULL	typec("link", "response", "coefficients", "nonzero")	exactFALSE	offset	...
+predict.fishnetfunctionfunctionglmnetobject	newx	sNULL	typec("link", "response", "coefficients", "nonzero")	exactFALSE	offset	...
+predict.lognetfunctionfunctionglmnetobject	newx	sNULL	typec("link", "response", "coefficients", "class", "nonzero")	exactFALSE	offset	...
+predict.mrelnetfunctionfunctionglmnetobject	newx	sNULL	typec("link", "response", "coefficients", "nonzero")	exactFALSE	offset	...
+predict.multnetfunctionfunctionglmnetobject	newx	sNULL	typec("link", "response", "coefficients", "class", "nonzero")	exactFALSE	offset	...
+response.coxnetfunctionfunctionglmnety
+rmultfunctionfunctionglmnetp

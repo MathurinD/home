@@ -1,0 +1,2 @@
+syn keyword rFunction flashClust
+syn keyword rFunction hclust

@@ -1,0 +1,4 @@
+syn keyword rFunction as.Formula
+syn keyword rFunction Formula
+syn keyword rFunction is.Formula
+syn keyword rFunction model.part

@@ -1,0 +1,2 @@
+syn keyword rFunction hclust
+syn keyword rFunction hclust.vector

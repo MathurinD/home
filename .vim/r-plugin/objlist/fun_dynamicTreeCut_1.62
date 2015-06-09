@@ -1,0 +1,6 @@
+syn keyword rFunction cutreeDynamic
+syn keyword rFunction cutreeDynamicTree
+syn keyword rFunction cutreeHybrid
+syn keyword rFunction indentSpaces
+syn keyword rFunction merge2Clusters
+syn keyword rFunction printFlush

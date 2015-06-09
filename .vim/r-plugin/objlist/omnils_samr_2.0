@@ -1,0 +1,34 @@
+check.formatfunctionfunctionsamry	resp.type	censoring.statusNULL
+plot.SAMoutputfunctionfunctionsamrx	...
+print.SAMoutputfunctionfunctionsamrx	...
+quantitative.funcfunctionfunctionsamrx	y	s00
+SAMfunctionfunctionsamrx	yNULL	censoring.statusNULL	resp.typec("Quantitative", "Two class unpaired", "Survival", "Multiclass", 	resp.type    "One class", "Two class paired", "Two class unpaired timecourse", 	resp.type    "One class timecourse", "Two class paired timecourse", "Pattern discovery")	geneidNULL	genenamesNULL	s0NULL	s0.percNULL	nperms100	center.arraysFALSE	testStatisticc("standard", "wilcoxon")	time.summary.typec("slope", "signed.area")	regression.methodc("standard", "ranks")	return.xTRUE	knn.neighbors10	random.seedNULL	logged2FALSE	fdr.output0.2	eigengene.number1
+samrfunctionfunctionsamrdata	resp.typec("Quantitative", "Two class unpaired", "Survival", "Multiclass", 	resp.type    "One class", "Two class paired", "Two class unpaired timecourse", 	resp.type    "One class timecourse", "Two class paired timecourse", "Pattern discovery")	assay.typec("array", "seq")	s0NULL	s0.percNULL	nperms100	center.arraysFALSE	testStatisticc("standard", "wilcoxon")	time.summary.typec("slope", "signed.area")	regression.methodc("standard", "ranks")	return.xFALSE	knn.neighbors10	random.seedNULL	nresamp20	nresamp.permNULL	xl.modec("regular", "firsttime", "next20", "lasttime")	xl.timeNULL	xl.prevfitNULL
+samr.assess.samplesizefunctionfunctionsamrsamr.obj	data	dif	samplesize.factorsc(1, 2, 3, 5)	min.genes10	max.genesnrow(data$x)/2
+samr.assess.samplesize.plotfunctionfunctionsamrsamr.assess.samplesize.obj	logxTRUE	call.win.metafileFALSE
+samr.compute.delta.tablefunctionfunctionsamrsamr.obj	min.foldchange0	delsNULL	nvals50
+samr.compute.siggenes.tablefunctionfunctionsamrsamr.obj	del	data	delta.table	min.foldchange0	all.genesFALSE	compute.localfdrFALSE
+samr.const.multiclass.responsecharactercharactersamrNot a function
+samr.const.oneclass.responsecharactercharactersamrNot a function
+samr.const.oneclass.timecourse.responsecharactercharactersamrNot a function
+samr.const.patterndiscovery.responsecharactercharactersamrNot a function
+samr.const.quantitative.responsecharactercharactersamrNot a function
+samr.const.survival.responsecharactercharactersamrNot a function
+samr.const.twoclass.paired.responsecharactercharactersamrNot a function
+samr.const.twoclass.paired.timecourse.responsecharactercharactersamrNot a function
+samr.const.twoclass.unpaired.responsecharactercharactersamrNot a function
+samr.const.twoclass.unpaired.timecourse.responsecharactercharactersamrNot a function
+samr.estimate.depthfunctionfunctionsamrx
+samr.missratefunctionfunctionsamrsamr.obj	del	delta.table	quantNULL
+samr.norm.datafunctionfunctionsamrx	depthNULL
+samr.plotfunctionfunctionsamrsamr.obj	delNULL	min.foldchange0
+samr.pvalues.from.permsfunctionfunctionsamrtt	ttstar
+samr.tail.strengthfunctionfunctionsamrsamr.obj
+samr.xl.build.datafunctionfunctionsamrx	y	geneid	genenames	logged2	resp.type
+samr.xl.compute.plot.xyfunctionfunctionsamrsamr.obj	del	min.foldchange0	plotFALSE
+samr.xl.error.tracefunctionfunctionsamrNO_ARGS
+samr.xl.impute.datafunctionfunctionsamrdata.obj
+samr.xl.parse.patterndiscoveryfunctionfunctionsamry
+samr.xl.parse.survivalfunctionfunctionsamry
+SAMseqfunctionfunctionsamrx	y	censoring.statusNULL	resp.typec("Quantitative", "Two class unpaired", "Survival", "Multiclass", 	resp.type    "Two class paired")	geneidNULL	genenamesNULL	nperms100	random.seedNULL	nresamp20	fdr.output0.2
+ttest.funcfunctionfunctionsamrx	y	s00	sdNULL

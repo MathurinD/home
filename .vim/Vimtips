@@ -1,0 +1,48 @@
+
+Spell check (http://blog.fedora-fr.org/metal3d/post/Correction-orthographique-et-grammaticale-avec-Vim)
+wget http://ftp.vim.org/vim/runtime/spell/fr.utf-8.spl
+wget http://ftp.vim.org/vim/runtime/spell/fr.utf-8.sug
+
+:set spelllang=fr spell
+
+zG to add to dictionnary
+]s, [s next and previous occurence
+z= substitutes in ex-mode, C-X s in insertion mode.
+
+:!xclip % pastes in clipboard
+
+Open multiple files at once, check opened with :args and add with :e name
+switch with :n and :prev
+    (:tabn, :tabp and :tabe also work)
+
+
+Current line completion
+C-X C-L
+Complete current word
+C-X C-N/C-P
+
+'. move to the last line modified
+`. move to the last modification
+
+Calculator
+C-R calculus
+
+/\c casse-insensitive search
+
+gf opens the file under the cursor
+
+# and * look for the word under the cursor backward and forward
+
+:#1,#2!command executes the command between lines #1 and #2 (% for all file)
+
+colorscheme perso " Use personal colorscheme
+
+In .vimrc :
+map for new commands, vmap for commands in visual mode
+<C-U> for virtual mode commands allow to maintain the selection (and does not replace it by the result of the command)
+<cword> is replaced by the selection
+<cfile> is replaced by the cursor path
+<CR> execute a carriage return
+
+i) in operator mode allows to match anything inside a parenthesis (also exists for }]"'`)
+

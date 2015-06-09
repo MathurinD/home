@@ -1,0 +1,8 @@
+condentropyfunctionfunctioninfotheoX	YNULL	method"emp"
+condinformationfunctionfunctioninfotheoX	Y	SNULL	method"emp"
+discretizefunctionfunctioninfotheoX	disc"equalfreq"	nbinsNROW(X)^(1/3)
+entropyfunctionfunctioninfotheoX	method"emp"
+interinformationfunctionfunctioninfotheoX	method"emp"
+multiinformationfunctionfunctioninfotheoX	method"emp"
+mutinformationfunctionfunctioninfotheoX	YNULL	method"emp"
+natstobitsfunctionfunctioninfotheoH

@@ -1,0 +1,281 @@
+let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
+argglobal
+setlocal keymap=
+setlocal noarabic
+setlocal autoindent
+setlocal balloonexpr=
+setlocal nobinary
+setlocal bufhidden=
+setlocal buflisted
+setlocal buftype=
+setlocal cindent
+setlocal cinkeys=0{,0},0),:,0#,!^F,o,O,e
+setlocal cinoptions=
+setlocal cinwords=if,else,while,do,for,switch
+setlocal colorcolumn=
+setlocal comments=sO:*\ -,mO:*\ \ ,exO:*/,s1:/*,mb:*,ex:*/,://
+setlocal commentstring=/*%s*/
+setlocal complete=.,w,b,u,t,i
+setlocal concealcursor=
+setlocal conceallevel=0
+setlocal completefunc=
+setlocal nocopyindent
+setlocal cryptmethod=
+setlocal nocursorbind
+setlocal nocursorcolumn
+setlocal cursorline
+setlocal define=
+setlocal dictionary=
+setlocal nodiff
+setlocal equalprg=
+setlocal errorformat=
+setlocal expandtab
+if &filetype != 'c'
+setlocal filetype=c
+endif
+setlocal foldcolumn=0
+setlocal foldenable
+setlocal foldexpr=0
+setlocal foldignore=#
+setlocal foldlevel=0
+setlocal foldmarker={{{,}}}
+setlocal foldmethod=indent
+setlocal foldminlines=1
+setlocal foldnestmax=20
+setlocal foldtext=foldtext()
+setlocal formatexpr=
+setlocal formatoptions=croql
+setlocal formatlistpat=^\\s*\\d\\+[\\]:.)}\\t\ ]\\s*
+setlocal grepprg=
+setlocal iminsert=2
+setlocal imsearch=2
+setlocal include=
+setlocal includeexpr=
+setlocal indentexpr=GetMyIndent()
+setlocal indentkeys=0{,0},:,0#,!^F,o,O,e
+setlocal noinfercase
+setlocal iskeyword=@,48-57,_,192-255
+setlocal keywordprg=
+setlocal linebreak
+setlocal nolisp
+setlocal nolist
+setlocal makeprg=
+setlocal matchpairs=(:),{:},[:]
+setlocal modeline
+setlocal modifiable
+setlocal nrformats=octal,hex
+setlocal number
+setlocal numberwidth=4
+setlocal omnifunc=ccomplete#Complete
+setlocal path=
+setlocal preserveindent
+setlocal nopreviewwindow
+setlocal quoteescape=\\
+setlocal noreadonly
+setlocal norelativenumber
+setlocal norightleft
+setlocal rightleftcmd=search
+setlocal noscrollbind
+setlocal shiftwidth=4
+setlocal noshortname
+setlocal smartindent
+setlocal softtabstop=2
+setlocal nospell
+setlocal spellcapcheck=[.?!]\\_[\\])'\"\	\ ]\\+
+setlocal spellfile=
+setlocal spelllang=en
+setlocal statusline=
+setlocal suffixesadd=
+setlocal swapfile
+setlocal synmaxcol=3000
+if &syntax != 'c'
+setlocal syntax=c
+endif
+setlocal tabstop=2
+setlocal tags=
+setlocal textwidth=0
+setlocal thesaurus=
+setlocal noundofile
+setlocal nowinfixheight
+setlocal nowinfixwidth
+setlocal wrap
+setlocal wrapmargin=0
+93
+normal zo
+101
+normal zo
+107
+normal zo
+109
+normal zo
+116
+normal zo
+120
+normal zo
+127
+normal zo
+130
+normal zo
+137
+normal zo
+145
+normal zo
+149
+normal zo
+153
+normal zo
+93
+normal zc
+164
+normal zo
+174
+normal zo
+181
+normal zo
+184
+normal zo
+197
+normal zo
+200
+normal zo
+204
+normal zo
+212
+normal zo
+217
+normal zo
+219
+normal zo
+228
+normal zo
+233
+normal zo
+236
+normal zo
+240
+normal zo
+242
+normal zo
+300
+normal zo
+315
+normal zo
+322
+normal zo
+326
+normal zo
+300
+normal zc
+381
+normal zo
+395
+normal zo
+397
+normal zo
+399
+normal zo
+415
+normal zo
+424
+normal zo
+424
+normal zc
+381
+normal zc
+442
+normal zo
+454
+normal zo
+460
+normal zo
+464
+normal zo
+466
+normal zo
+468
+normal zo
+477
+normal zo
+479
+normal zo
+483
+normal zo
+489
+normal zo
+492
+normal zo
+499
+normal zo
+502
+normal zo
+504
+normal zo
+513
+normal zo
+516
+normal zo
+518
+normal zo
+520
+normal zo
+518
+normal zc
+516
+normal zc
+526
+normal zo
+513
+normal zc
+533
+normal zo
+442
+normal zc
+653
+normal zo
+662
+normal zo
+667
+normal zo
+670
+normal zo
+675
+normal zo
+683
+normal zo
+685
+normal zo
+691
+normal zo
+691
+normal zc
+701
+normal zo
+713
+normal zo
+653
+normal zc
+738
+normal zo
+738
+normal zc
+821
+normal zo
+832
+normal zo
+850
+normal zo
+832
+normal zc
+865
+normal zo
+821
+normal zc
+let s:l = 248 - ((22 * winheight(0) + 17) / 34)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+248
+normal! 021l
+let &so = s:so_save | let &siso = s:siso_save
+doautoall SessionLoadPost
+" vim: set ft=vim :

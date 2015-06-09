@@ -1,0 +1,394 @@
+let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
+argglobal
+setlocal keymap=
+setlocal noarabic
+setlocal autoindent
+setlocal balloonexpr=
+setlocal nobinary
+setlocal bufhidden=
+setlocal buflisted
+setlocal buftype=
+setlocal nocindent
+setlocal cinkeys=0{,0},0),:,0#,!^F,o,O,e
+setlocal cinoptions=
+setlocal cinwords=if,else,while,do,for,switch
+setlocal comments=s:<!--,m:\ \ \ \ \ ,e:-->
+setlocal commentstring=<!--%s-->
+setlocal complete=.,w,b,u,t,i
+setlocal completefunc=
+setlocal nocopyindent
+setlocal nocursorcolumn
+setlocal cursorline
+setlocal define=
+setlocal dictionary=
+setlocal nodiff
+setlocal equalprg=
+setlocal errorformat=
+setlocal expandtab
+if &filetype != 'xml'
+setlocal filetype=xml
+endif
+setlocal foldcolumn=0
+setlocal foldenable
+setlocal foldexpr=0
+setlocal foldignore=#
+setlocal foldlevel=20
+setlocal foldmarker={{{,}}}
+setlocal foldmethod=indent
+setlocal foldminlines=1
+setlocal foldnestmax=20
+setlocal foldtext=foldtext()
+setlocal formatexpr=
+setlocal formatoptions=croql
+setlocal formatlistpat=^\\s*\\d\\+[\\]:.)}\\t\ ]\\s*
+setlocal grepprg=
+setlocal iminsert=2
+setlocal imsearch=2
+setlocal include=
+setlocal includeexpr=
+setlocal indentexpr=XmlIndentGet(v:lnum,1)
+setlocal indentkeys=o,O,*<Return>,<>>,<<>,/,{,}
+setlocal noinfercase
+setlocal iskeyword=@,48-57,_,192-255
+setlocal keywordprg=
+setlocal linebreak
+setlocal nolisp
+setlocal nolist
+setlocal makeprg=
+setlocal matchpairs=(:),{:},[:]
+setlocal modeline
+setlocal modifiable
+setlocal nrformats=octal,hex
+setlocal number
+setlocal numberwidth=4
+setlocal omnifunc=xmlcomplete#CompleteTags
+setlocal path=
+setlocal nopreserveindent
+setlocal nopreviewwindow
+setlocal quoteescape=\\
+setlocal noreadonly
+setlocal norightleft
+setlocal rightleftcmd=search
+setlocal noscrollbind
+setlocal shiftwidth=4
+setlocal noshortname
+setlocal smartindent
+setlocal softtabstop=4
+setlocal nospell
+setlocal spellcapcheck=[.?!]\\_[\\])'\"\	\ ]\\+
+setlocal spellfile=
+setlocal spelllang=en
+setlocal statusline=
+setlocal suffixesadd=
+setlocal swapfile
+setlocal synmaxcol=3000
+if &syntax != 'xml'
+setlocal syntax=xml
+endif
+setlocal tabstop=4
+setlocal tags=
+setlocal textwidth=0
+setlocal thesaurus=
+setlocal nowinfixheight
+setlocal nowinfixwidth
+setlocal wrap
+setlocal wrapmargin=0
+4
+normal zo
+6
+normal zo
+4
+normal zo
+11
+normal zo
+17
+normal zo
+19
+normal zo
+19
+normal zo
+36
+normal zo
+36
+normal zo
+53
+normal zo
+53
+normal zo
+17
+normal zo
+11
+normal zo
+60
+normal zo
+60
+normal zo
+72
+normal zo
+72
+normal zo
+60
+normal zo
+60
+normal zo
+78
+normal zo
+78
+normal zo
+90
+normal zo
+90
+normal zo
+78
+normal zo
+78
+normal zo
+96
+normal zo
+96
+normal zo
+176
+normal zo
+176
+normal zo
+96
+normal zo
+96
+normal zo
+183
+normal zo
+183
+normal zo
+314
+normal zo
+314
+normal zo
+637
+normal zo
+637
+normal zo
+183
+normal zo
+183
+normal zo
+644
+normal zo
+644
+normal zo
+724
+normal zo
+724
+normal zo
+877
+normal zo
+877
+normal zo
+644
+normal zo
+644
+normal zo
+884
+normal zo
+884
+normal zo
+1066
+normal zo
+1066
+normal zo
+884
+normal zo
+884
+normal zo
+1072
+normal zo
+1072
+normal zo
+1203
+normal zo
+1203
+normal zo
+1072
+normal zo
+1072
+normal zo
+1210
+normal zo
+1210
+normal zo
+1222
+normal zo
+1222
+normal zo
+1210
+normal zo
+1210
+normal zo
+1229
+normal zo
+1229
+normal zo
+1241
+normal zo
+1241
+normal zo
+1229
+normal zo
+1229
+normal zo
+1248
+normal zo
+1248
+normal zo
+1406
+normal zo
+1406
+normal zo
+1248
+normal zo
+1248
+normal zo
+1413
+normal zo
+1413
+normal zo
+1442
+normal zo
+1442
+normal zo
+1676
+normal zo
+1676
+normal zo
+1413
+normal zo
+1413
+normal zo
+1683
+normal zo
+1683
+normal zo
+1729
+normal zo
+1729
+normal zo
+1683
+normal zo
+1683
+normal zo
+1736
+normal zo
+1736
+normal zo
+1867
+normal zo
+1867
+normal zo
+1736
+normal zo
+1736
+normal zo
+1873
+normal zo
+1873
+normal zo
+2072
+normal zo
+2072
+normal zo
+1873
+normal zo
+1873
+normal zo
+2079
+normal zo
+2079
+normal zo
+2091
+normal zo
+2091
+normal zo
+2079
+normal zo
+2079
+normal zo
+2097
+normal zo
+2097
+normal zo
+2330
+normal zo
+2330
+normal zo
+2097
+normal zo
+2097
+normal zo
+2337
+normal zo
+2337
+normal zo
+2349
+normal zo
+2349
+normal zo
+2337
+normal zo
+2337
+normal zo
+2355
+normal zo
+2355
+normal zo
+2384
+normal zo
+2384
+normal zo
+2355
+normal zo
+2355
+normal zo
+2390
+normal zo
+10031
+normal zo
+10033
+normal zo
+10033
+normal zo
+10031
+normal zo
+2390
+normal zo
+10044
+normal zo
+10044
+normal zo
+10049
+normal zo
+10049
+normal zo
+10044
+normal zo
+10044
+normal zo
+10060
+normal zo
+10060
+normal zo
+10065
+normal zo
+10065
+normal zo
+10060
+normal zo
+10060
+normal zo
+let s:l = 10053 - ((41 * winheight(0) + 30) / 61)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+10053
+normal! 014l
+let &so = s:so_save | let &siso = s:siso_save
+doautoall SessionLoadPost
+" vim: set ft=vim :

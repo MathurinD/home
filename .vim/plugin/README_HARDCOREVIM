@@ -1,0 +1,100 @@
+Agetian's Vim Hardcore Mode (C) 2013 by Michael Kamensky, all rights reserved.
+This script is distributed under Vim license.
+==============================================================================
+
+This simple script is aimed to help aspiring Vim users become adept at using the
+proper Vim motion keys when moving around, selecting text, and performing
+various operations.
+
+Vim is a modern tool and, as any other modern tool, allows the user to use the
+traditional input and movement methods, such as e.g. the cursor keys and the
+mouse, despite their terrible inefficiency compared to the methods that Vim was
+originally meant to be used with. In addition to that, the GUI version of Vim
+(gVim) features the menu bar and the toolbar which seem to help the beginning
+user but in reality only slow him/her down and take away the precious window
+space that can be used to actually display the edited text.
+
+This hardcore mode is meant to help the Vim users get a better feel for the
+proper Vim movement and input commands and get rid of the bad habit of using the
+"evil", slow methods of moving around. It does so by temporarily disabling the
+most common unwanted movement methods (the cursor keys, the mouse,
+PgUp/PgDn/etc.), as well as the most common unwanted GUI features (the menu bar
+and the toolbar), thus making it more difficult (rather, temporarily impossible)
+for the end user to actually use them. In normal mode, the plugin will give
+hints as to what keys can be used instead of the "evil" keys. In insert,
+command, and visual modes, sadly, the hints did not work correctly for some
+reason, so currently the keys will simply not do anything there. With time,
+hopefully, you will learn to overcome your desire to use the evil keys and the
+evil mouse in Vim (because they simply don't do the thing you want) and learn to
+use the proper keys instead.
+
+The hardcore mode is easy to enable (<Leader>hm by default, mnemonic for
+"Hardcore Mode") and easy to disable if the user gets tired of it or gets lost
+and confused (use the same key sequence, <Leader>hm by default).
+
+WARNING: By default, the hardcore mode disables the cursor keys and PgUp/PgDn/
+End/Home/Insert/Delete keys in the command (ex) mode! This may be confusing at
+first because it seems to make scrolling through the command history more
+difficult (many users prefer to use the Up key to choose the previous commands).
+Do try to use the main keyboard keys to navigate the command line history (C-p
+shows the previous entry, C-n shows the next entry, C-f opens the history window
+where you can edit the command line and execute it). If you find it difficult
+and you're sure you want the old command line functionality back while in
+Hardcore mode, you can use <Leader>hc (by default) to toggle whether the command
+mode is hardcore or not.
+
+The plugin will remember the user's current mouse and GUI settings and restore
+them when the hardcore mode is disabled. As such, if you normally have the mouse
+and the menu bar/toolbar disabled, disabling the hardcore mode will not enable
+those features automatically for you.
+
+Installing the plugin
+=====================
+Variant 1. Drop hardcore.vim into your "plugin" folder in the ~/.vim directory.
+	   It'll be loaded automatically the next time you start Vim.
+Variant 2. Manually open the script (:e hardcore.vim) and source it (:so %).
+	   It'll be loaded immediately but will not be auto-loaded the next time
+	   you start Vim.
+
+IMPORTANT: If you are using any custom plugins that rely on mappings for cursor
+keys, Insert/Delete/Home/End/PgUp/PgDn keys, or the mouse, this plugin may mess
+with these plugins and disrupt their operation! 
+
+Enabling/disabling the mode
+===========================
+Unless you customized the mappings in hardcore.vim, use:
+<Leader>hm to toggle the hardcore mode
+<Leader>hc to toggle whether the command (ex) mode is hardcore or not
+The default leader key in Vim is the backslash key (\).
+
+Caution
+=======
+If you are a beginner in Vim, please make sure of the following before trying to
+use this script: 
+1) Make sure you at least complete the 'vimtutor' tutorial that ships with Vim
+to familiarize yourself with the proper motion commands.
+2) Make sure you use the "real Vim" - that is, ensure you're not using the
+so-called "easy mode" which is actually more evil than both the cursor keys and
+the mouse combined. If you can only use Vim in "easy mode", please familiarize
+yourself with the way Vim is really meant to be used before trying the hardcore
+mode!
+3) If worst comes to worst, remember that <Leader>hm (by default, backslash
+quickly followed by h and m) in Normal mode will disable Hardcore Mode if it's
+already enabled. If that fails for you for whatever reason and you can't get out
+of hardcore mode, restart Vim and it'll be back to normal.
+
+The hardcore mode may feel frustrating for you or confuse you in case you're
+only starting to use Vim and are not familiar with modal editing and vi movement
+keys yet. You've been warned. ;)
+
+Known issues
+============
+
+Enabling and disabling hardcore mode multiple times in gVim progressively makes
+the gVim window smaller by one line. This is easily fixed by remaximizing gVim
+window or resizing it back to the desired size. This issue occurs because of the
+way gVim handles the menu bar and the toolbar when they are toggled on and off,
+I'm not sure if it's possible to resolve it programmatically from the plugin.
+
+==============================================================================
+If you still feel brave enough to try out hardcore mode, gl hf!

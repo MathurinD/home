@@ -1,0 +1,3 @@
+syn keyword rFunction annotations
+syn keyword rFunction fdr
+syn keyword rFunction FunNet

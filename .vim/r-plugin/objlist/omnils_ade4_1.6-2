@@ -1,0 +1,223 @@
+acm.burtfunctionfunctionade4df1	df2	countsrep(1, nrow(df1))
+acm.disjonctiffunctionfunctionade4df
+add.scatterfunctionfunctionade4func	posic("bottomleft", "bottomright", "topleft", "topright")	ratio0.2	inset0.01	bg.col"white"
+add.scatter.eigfunctionfunctionade4w	nfNULL	xax	yax	posi"bottomleft"	ratio0.25	inset0.01	sub"Eigenvalues"	csub2 * ratio
+amovafunctionfunctionade4samples	distancesNULL	structuresNULL
+apqefunctionfunctionade4samples	disNULL	structuresNULL
+area.plotfunctionfunctionade4x	centerNULL	valuesNULL	graphNULL	lwdgraph2	nclasslegend8	clegend0.75	sub""	csub1	possub"topleft"	cpoint0	labelNULL	clabel0	...
+area2linkfunctionfunctionade4area
+area2polyfunctionfunctionade4area
+as.dudifunctionfunctionade4df	col.w	row.w	scannf	nf	call	type	tol1e-07	fullFALSE
+as.krandtestfunctionfunctionade4sim	obs	alter"greater"	callmatch.call()	namescolnames(sim)	p.adjust.method"none"
+as.randtestfunctionfunctionade4sim	obs	alterc("greater", "less", "two-sided")	callmatch.call()
+as.rtestfunctionfunctionade4sim	obs	callmatch.call()
+as.taxofunctionfunctionade4df
+bcafunctionfunctionade4x	...
+bicenter.wtfunctionfunctionade4X	row.wtrep(1, nrow(X))	col.wtrep(1, ncol(X))
+cailliezfunctionfunctionade4distmat	printFALSE	tol1e-07	cor.zeroTRUE
+ccafunctionfunctionade4sitspe	sitenv	scannfTRUE	nf2
+char2genetfunctionfunctionade4X	pop	completeFALSE
+coinertiafunctionfunctionade4dudiX	dudiY	scannfTRUE	nf2
+col.namesfunctionfunctionade4x
+col.names<-functionfunctionade4x	value
+combine.4thcornerfunctionfunctionade4four1	four2
+combine.randtest.rlqfunctionfunctionade4obj1	obj2
+costatisfunctionfunctionade4KTX	KTY	scannfTRUE
+count2genetfunctionfunctionade4PopAllCount
+covfacwtfunctionfunctionade4df	facNULL	wtrep(1/nrow(df), nrow(df))	dropFALSE
+covwtfunctionfunctionade4x	wt	na.rmFALSE
+discfunctionfunctionade4samples	disNULL	structuresNULL
+discriminfunctionfunctionade4dudi	fac	scannfTRUE	nf2
+discrimin.coafunctionfunctionade4df	fac	scannfTRUE	nf2
+dist.binaryfunctionfunctionade4df	methodNULL	diagFALSE	upperFALSE
+dist.dudifunctionfunctionade4dudi	amongrowTRUE
+dist.genetfunctionfunctionade4genet	method1	diagFALSE	upperFALSE
+dist.ktabfunctionfunctionade4x	type	optionc("scaledBYrange", "scaledBYsd", "noscale")	scannFALSE	tol1e-08
+dist.neigfunctionfunctionade4neig
+dist.propfunctionfunctionade4df	methodNULL	diagFALSE	upperFALSE
+dist.quantfunctionfunctionade4df	methodNULL	diagFALSE	upperFALSE	tol1e-07
+dist.taxofunctionfunctionade4taxo
+divcfunctionfunctionade4df	disNULL	scaleFALSE
+divcmaxfunctionfunctionade4dis	epsilon1e-08	commentFALSE
+dotchart.phylogfunctionfunctionade4phylog	values	yNULL	scalingTRUE	rangingTRUE	yrangingNULL	joiningTRUE	yjoiningNULL	ceti1	cdot1	csub1	f.phylog1/(1 + ncol(values))	...
+dotcirclefunctionfunctionade4z	alpha0pi/2	xlimrange(pretty(z))	labelsnames(z)	clabel1	cleg1
+dpcoafunctionfunctionade4df	disNULL	scannfTRUE	nf2	fullFALSE	tol1e-07
+dudi.acmfunctionfunctionade4df	row.wrep(1, nrow(df))	scannfTRUE	nf2
+dudi.coafunctionfunctionade4df	scannfTRUE	nf2
+dudi.decfunctionfunctionade4df	eff	scannfTRUE	nf2
+dudi.fcafunctionfunctionade4df	scannfTRUE	nf2
+dudi.fpcafunctionfunctionade4df	scannfTRUE	nf2
+dudi.hillsmithfunctionfunctionade4df	row.wrep(1, nrow(df))/nrow(df)	scannfTRUE	nf2
+dudi.mixfunctionfunctionade4df	add.squareFALSE	scannfTRUE	nf2
+dudi.nscfunctionfunctionade4df	scannfTRUE	nf2
+dudi.pcafunctionfunctionade4df	row.wrep(1, nrow(df))/nrow(df)	col.wrep(1, ncol(df))	centerTRUE	scaleTRUE	scannfTRUE	nf2
+dudi.pcofunctionfunctionade4d	row.w"uniform"	scannfTRUE	nf2	fullFALSE	tol1e-07
+dudi.typefunctionfunctionade4x
+EHfunctionfunctionade4phyl	selectNULL
+enum.phylogfunctionfunctionade4phylog	no.over1000
+foucartfunctionfunctionade4X	scannfTRUE	nf2
+fourthcornerfunctionfunctionade4tabR	tabL	tabQ	modeltype6	nrepet999	tr01FALSE	p.adjust.method.G	p.adjust.method.D	p.adjust.Dc("global", "levels")
+fourthcorner.rlqfunctionfunctionade4xtest	nrepet999	modeltype6	typetestc("axes", "Q.axes", "R.axes")	p.adjust.method.G	p.adjust.method.D	p.adjust.Dc("global", "levels")	...
+fourthcorner2functionfunctionade4tabR	tabL	tabQ	modeltype6	nrepet999	tr01FALSE	p.adjust.method.G
+freq2genetfunctionfunctionade4PopAllFreq
+fuzzygenetfunctionfunctionade4X
+gearymoranfunctionfunctionade4bilis	X	nrepet999	alterc("greater", "less", "two-sided")
+gridrowcolfunctionfunctionade4nrow	ncol	cell.namesNULL
+haar2levelfunctionfunctionade4x
+hclust2phylogfunctionfunctionade4hc	add.toolsTRUE
+inertia.dudifunctionfunctionade4dudi	row.inertiaFALSE	col.inertiaFALSE
+is.dudifunctionfunctionade4x
+is.euclidfunctionfunctionade4distmat	plotFALSE	printFALSE	tol1e-07
+is.ktabfunctionfunctionade4x
+kdistfunctionfunctionade4...	epsi1e-07	upperFALSE
+kdist.corfunctionfunctionade4x	type	optionc("scaledBYrange", "scaledBYsd", "noscale")	scannFALSE	tol1e-08	squaredTRUE
+kdist2ktabfunctionfunctionade4kd	scaleTRUE	tol1e-07
+kdisteuclidfunctionfunctionade4obj	methodc("lingoes", "cailliez", "quasi")
+kplotfunctionfunctionade4object	...
+kplot.sepan.coafunctionfunctionade4object	xax1	yax2	which.tab1:length(object$blo)	mfrowNULL	permute.row.colFALSE	clab.row1	clab.col1.25	csub2	possub"bottomright"	show.eigen.valueTRUE	poseigc("bottom", "top")	...
+kplotX.mdpcoafunctionfunctionade4object	xax1	yax2	mfrowNULL	which.tab1:length(object$nX)	includepopFALSE	clab0.7	cpoi0.7	unique.scaleFALSE	csub2	possub"bottomright"
+ktab.data.framefunctionfunctionade4df	blocks	rownamesNULL	colnamesNULL	tabnamesNULL	w.rowrep(1, nrow(df))/nrow(df)	w.colrep(1, ncol(df))
+ktab.list.dffunctionfunctionade4obj	rownamesNULL	colnamesNULL	tabnamesNULL	w.rowrep(1, nrow(obj[[1]]))	w.collapply(obj, function(x) rep(1/ncol(x), ncol(x)))
+ktab.list.dudifunctionfunctionade4obj	rownamesNULL	colnamesNULL	tabnamesNULL
+ktab.match2ktabsfunctionfunctionade4KTX	KTY
+ktab.withinfunctionfunctionade4dudiwit	rownamesNULL	colnamesNULL	tabnamesNULL
+ldist.ktabfunctionfunctionade4x	type	optionc("scaledBYrange", "scaledBYsd", "noscale")	scannFALSE	tol1e-08
+lingoesfunctionfunctionade4distmat	printFALSE	tol1e-07	cor.zeroTRUE
+mantel.randtestfunctionfunctionade4m1	m2	nrepet999
+mantel.rtestfunctionfunctionade4m1	m2	nrepet99
+mantelkdistfunctionfunctionade4kd	nrepet999
+mcoafunctionfunctionade4X	optionc("inertia", "lambda1", "uniform", "internal")	scannfTRUE	nf3	tol1e-07
+mdpcoafunctionfunctionade4msamples	mdistancesNULL	methodc("mcoa", "statis", "mfa")	optionc("inertia", "lambda1", "uniform", "internal")	scannfTRUE	nf3	fullTRUE	nfsepNULL	tol1e-07
+meanfacwtfunctionfunctionade4df	facNULL	wtrep(1/nrow(df), nrow(df))	dropFALSE
+mfafunctionfunctionade4X	optionc("lambda1", "inertia", "uniform", "internal")	scannfTRUE	nf3
+mldfunctionfunctionade4x	orthobas	level	na.actionc("fail", "mean")	plotTRUE	dfxyNULL	phylogNULL	...
+mstreefunctionfunctionade4xdist	ngmax1
+multispatifunctionfunctionade4dudi	listw	scannfTRUE	nfposi2	nfnega0
+multispati.randtestfunctionfunctionade4dudi	listw	nrepet999
+multispati.rtestfunctionfunctionade4dudi	listw	nrepet99
+nb2neigfunctionfunctionade4nb
+neigfunctionfunctionade4listNULL	mat01NULL	edgesNULL	n.lineNULL	n.circleNULL	areaNULL
+neig2matfunctionfunctionade4neig
+neig2nbfunctionfunctionade4neig
+newick2phylogfunctionfunctionade4x.tre	add.toolsTRUE	callmatch.call()
+nichefunctionfunctionade4dudiX	Y	scannfTRUE	nf2
+niche.paramfunctionfunctionade4x
+nipalsfunctionfunctionade4df	nf2	recFALSE	niter100	tol1e-09
+optimEHfunctionfunctionade4phyl	nbofsp	tol1e-08	give.listTRUE
+originalityfunctionfunctionade4phyl	method5
+orisavedfunctionfunctionade4phyl	rate0.1	method1
+orthobasis.circfunctionfunctionade4n
+orthobasis.haarfunctionfunctionade4n
+orthobasis.linefunctionfunctionade4n
+orthobasis.listwfunctionfunctionade4listw
+orthobasis.matfunctionfunctionade4mat	cnwTRUE
+orthobasis.neigfunctionfunctionade4neig
+orthogramfunctionfunctionade4x	orthobasNULL	neigNULL	phylogNULL	nrepet999	posinega0	tol1e-07	na.actionc("fail", "mean")	cdot1.5	cfont.main1.5	lwd2	nclass	high.scores0	alterc("greater", "less", "two-sided")
+p.adjust.4thcornerfunctionfunctionade4x	p.adjust.method.G	p.adjust.method.D	p.adjust.Dc("global", "levels")
+pcaivfunctionfunctionade4dudi	df	scannfTRUE	nf2
+pcaivorthofunctionfunctionade4dudi	df	scannfTRUE	nf2
+pcoscaledfunctionfunctionade4distmat	tol1e-07
+phylog.extractfunctionfunctionade4phylog	node	distanceTRUE
+phylog.permutfunctionfunctionade4phylog	list.nodesNULL	distanceTRUE
+PI2newickfunctionfunctionade4x
+poly2areafunctionfunctionade4polys
+prep.binaryfunctionfunctionade4df	col.blocks	labelspaste("B", 1:length(col.blocks), sep = "")
+prep.circularfunctionfunctionade4df	rangeminapply(df, 2, min, na.rm = TRUE)	rangemaxapply(df, 2, max, na.rm = TRUE)
+prep.fuzzyfunctionfunctionade4df	col.blocks	row.wrep(1, nrow(df))	labelspaste("F", 1:length(col.blocks), sep = "")
+prep.fuzzy.varfunctionfunctionade4df	col.blocks	row.wrep(1, nrow(df))
+prep.mdpcoafunctionfunctionade4dnaobj	pop	model	...
+procustefunctionfunctionade4df1	df2	scaleTRUE	nf4	tol1e-07
+procuste.randtestfunctionfunctionade4df1	df2	nrepet999
+procuste.rtestfunctionfunctionade4df1	df2	nrepet99
+ptafunctionfunctionade4X	scannfTRUE	nf2
+quasieuclidfunctionfunctionade4distmat
+radial.phylogfunctionfunctionade4phylog	circle1	cleaves1	cnodes0	labels.leavesnames(phylog$leaves)	clabel.leaves1	labels.nodesnames(phylog$nodes)	clabel.nodes0	draw.boxFALSE
+randEHfunctionfunctionade4phyl	nbofsp	nbrep10
+randtestfunctionfunctionade4xtest	...
+reciprocal.coafunctionfunctionade4x
+reconstfunctionfunctionade4dudi	...
+redo.dudifunctionfunctionade4dudi	newnf2
+rlqfunctionfunctionade4dudiR	dudiL	dudiQ	scannfTRUE	nf2
+rtestfunctionfunctionade4xtest	...
+RV.rtestfunctionfunctionade4df1	df2	nrepet99
+RVdist.randtestfunctionfunctionade4m1	m2	nrepet999
+RVkdistfunctionfunctionade4kd	nrepet999
+s.arrowfunctionfunctionade4dfxy	xax1	yax2	labelrow.names(dfxy)	clabel1	pch20	cpoint0	boxesTRUE	edgeTRUE	originc(0, 0)	xlimNULL	ylimNULL	gridTRUE	addaxesTRUE	cgrid1	sub""	csub1.25	possub"bottomleft"	pixmapNULL	contourNULL	areaNULL	add.plotFALSE
+s.chullfunctionfunctionade4dfxy	fac	xax1	yax2	optchullc(0.25, 0.5, 0.75, 1)	labellevels(fac)	clabel1	cpoint0	colrep(1, length(levels(fac)))	xlimNULL	ylimNULL	gridTRUE	addaxesTRUE	originc(0, 0)	include.originTRUE	sub""	csub1	possub"bottomleft"	cgrid1	pixmapNULL	contourNULL	areaNULL	add.plotFALSE
+s.classfunctionfunctionade4dfxy	fac	wtrep(1, length(fac))	xax1	yax2	cstar1	cellipse1.5	axesellTRUE	labellevels(fac)	clabel1	cpoint1	pch20	colrep(1, length(levels(fac)))	xlimNULL	ylimNULL	gridTRUE	addaxesTRUE	originc(0, 0)	include.originTRUE	sub""	csub1	possub"bottomleft"	cgrid1	pixmapNULL	contourNULL	areaNULL	add.plotFALSE
+s.corcirclefunctionfunctionade4dfxy	xax1	yax2	labelrow.names(df)	clabel1	gridTRUE	sub""	csub1	possub"bottomleft"	cgrid0	fullcircleTRUE	boxFALSE	add.plotFALSE
+s.distrifunctionfunctionade4dfxy	dfdistri	xax1	yax2	cstar1	cellipse1.5	axesellTRUE	labelnames(dfdistri)	clabel0	cpoint1	pch20	xlimNULL	ylimNULL	gridTRUE	addaxesTRUE	originc(0, 0)	include.originTRUE	sub""	csub1	possub"bottomleft"	cgrid1	pixmapNULL	contourNULL	areaNULL	add.plotFALSE
+s.histfunctionfunctionade4dfxy	xax1	yax2	cgrid1	cbreaks2	adjust1	...
+s.imagefunctionfunctionade4dfxy	z	xax1	yax2	span0.5	xlimNULL	ylimNULL	kgrid2	scaleTRUE	gridFALSE	addaxesFALSE	cgrid0	include.originFALSE	originc(0, 0)	sub""	csub1	possub"topleft"	neigNULL	cneig1	image.plotTRUE	contour.plotTRUE	pixmapNULL	contourNULL	areaNULL	add.plotFALSE
+s.kde2dfunctionfunctionade4dfxy	xax1	yax2	pch20	cpoint1	neigNULL	cneig2	xlimNULL	ylimNULL	gridTRUE	addaxesTRUE	cgrid1	include.originTRUE	originc(0, 0)	sub""	csub1.25	possub"bottomleft"	pixmapNULL	contourNULL	areaNULL	add.plotFALSE
+s.labelfunctionfunctionade4dfxy	xax1	yax2	labelrow.names(dfxy)	clabel1	pch20	cpointif (clabel == 0) 1 else 0	boxesTRUE	neigNULL	cneig2	xlimNULL	ylimNULL	gridTRUE	addaxesTRUE	cgrid1	include.originTRUE	originc(0, 0)	sub""	csub1.25	possub"bottomleft"	pixmapNULL	contourNULL	areaNULL	add.plotFALSE
+s.logofunctionfunctionade4dfxy	listlogo	klogoNULL	clogo1	rectlogoTRUE	xax1	yax2	neigNULL	cneig1	xlimNULL	ylimNULL	gridTRUE	addaxesTRUE	cgrid1	include.originTRUE	originc(0, 0)	sub""	csub1.25	possub"bottomleft"	pixmapNULL	contourNULL	areaNULL	add.plotFALSE
+s.matchfunctionfunctionade4df1xy	df2xy	xax1	yax2	pch20	cpoint1	labelrow.names(df1xy)	clabel1	edgeTRUE	xlimNULL	ylimNULL	gridTRUE	addaxesTRUE	cgrid1	include.originTRUE	originc(0, 0)	sub""	csub1.25	possub"bottomleft"	pixmapNULL	contourNULL	areaNULL	add.plotFALSE
+s.match.classfunctionfunctionade4df1xy	df2xy	fac	wtrep(1/nrow(df1xy), nrow(df1xy))	xax1	yax2	pch116	pch215	col1rep("lightgrey", nlevels(fac))	col2rep("darkgrey", nlevels(fac))	cpoint1	labellevels(fac)	clabel1	cstar1	cellipse0	axesellTRUE	xlimNULL	ylimNULL	gridTRUE	addaxesTRUE	cgrid1	include.originTRUE	originc(0, 0)	sub""	csub1.25	possub"bottomleft"	pixmapNULL	contourNULL	areaNULL	add.plotFALSE
+s.multinomfunctionfunctionade4dfxy	dfrowprof	translateFALSE	xax1	yax2	labelcatrow.names(dfxy)	clabelcat1	cpointcatif (clabelcat == 0) 2 else 0	labelrowprofrow.names(dfrowprof)	clabelrowprof0.75	cpointrowprofif (clabelrowprof == 0) 2 else 0	pchrowprof20	coulrowprofgrey(0.8)	proba0.95	n.sampleapply(dfrowprof, 1, sum)	axesellTRUE	...
+s.trajectfunctionfunctionade4dfxy	facfactor(rep(1, nrow(dfxy)))	ord(1:length(fac))	xax1	yax2	labellevels(fac)	clabel1	cpoint1	pch20	xlimNULL	ylimNULL	gridTRUE	addaxesTRUE	edgeTRUE	originc(0, 0)	include.originTRUE	sub""	csub1	possub"bottomleft"	cgrid1	pixmapNULL	contourNULL	areaNULL	add.plotFALSE
+s.valuefunctionfunctionade4dfxy	z	xax1	yax2	methodc("squaresize", "greylevel")	zmaxNULL	csize1	cpoint0	pch20	clegend0.75	neigNULL	cneig1	xlimNULL	ylimNULL	gridTRUE	addaxesTRUE	cgrid0.75	include.originTRUE	originc(0, 0)	sub""	csub1	possub"topleft"	pixmapNULL	contourNULL	areaNULL	add.plotFALSE
+scalefacwtfunctionfunctionade4df	facNULL	wtrep(1/nrow(df), nrow(df))	scaleTRUE	dropFALSE
+scalewtfunctionfunctionade4df	wtrep(1/nrow(df), nrow(df))	centerTRUE	scaleTRUE
+scatterfunctionfunctionade4x	...
+scatter.acmfunctionfunctionade4x	xax1	yax2	mfrowNULL	csub2	possub"topleft"	...
+scatter.coafunctionfunctionade4x	xax1	yax2	method1:3	clab.row0.75	clab.col1.25	posieig"top"	subNULL	csub2	...
+scatter.dudifunctionfunctionade4x	xax1	yax2	clab.row0.75	clab.col1	permuteFALSE	posieig"top"	subNULL	...
+scatter.fcafunctionfunctionade4x	xax1	yax2	clab.moda1	labelsnames(x$tab)	subNULL	csub2	...
+scatter.nipalsfunctionfunctionade4x	xax1	yax2	clab.row0.75	clab.col1	posieig"top"	subNULL	...
+scatter.pcofunctionfunctionade4x	xax1	yax2	clab.row1	posieig"top"	subNULL	csub2	...
+scatterutil.basefunctionfunctionade4dfxy	xax	yax	xlim	ylim	grid	addaxes	cgrid	include.origin	origin	sub	csub	possub	pixmap	contour	area	add.plot
+scatterutil.chullfunctionfunctionade4x	y	fac	optchullc(0.25, 0.5, 0.75, 1)	colrep(1, length(levels(fac)))
+scatterutil.convrot90functionfunctionade4xh	yh
+scatterutil.eigenfunctionfunctionade4w	nfNULL	xmaxlength(w)	yminmin(0, min(w))	ymaxmax(w)	wsel1	sub"Eigenvalues"	csub2	possub"topright"	boxFALSE	yaxt"n"
+scatterutil.ellipsefunctionfunctionade4x	y	z	cellipse	axesell	coulrep(1, length(x))
+scatterutil.etifunctionfunctionade4x	y	label	clabel	boxesTRUE	coulrep(1, length(x))	horizontalTRUE	bg"white"
+scatterutil.eti.circfunctionfunctionade4x	y	label	clabel	originc(0, 0)	boxesTRUE
+scatterutil.gridfunctionfunctionade4cgrid
+scatterutil.legend.bw.squarefunctionfunctionade4br0	sq0	sig0	clegend
+scatterutil.legend.square.greyfunctionfunctionade4br0	valgris	h	clegend
+scatterutil.legendgrisfunctionfunctionade4w	nclasslegend	clegend
+scatterutil.logofunctionfunctionade4coox	cooy	lico	kico	cico	rico
+scatterutil.scalingfunctionfunctionade4refold	refnew	xyold
+scatterutil.scofunctionfunctionade4score	lim	grid	cgrid	include.origin	origin	sub	csub	horizontal	reverse
+scatterutil.starfunctionfunctionade4x	y	z	cstar	coulrep(1, length(x))
+scatterutil.subfunctionfunctionade4cha	csub	possub"bottomleft"
+sco.boxplotfunctionfunctionade4score	df	labelsnames(df)	clabel1	xlimNULL	gridTRUE	cgrid0.75	include.originTRUE	origin0	subNULL	csub1
+sco.classfunctionfunctionade4score	fac	labellevels(fac)	clabel1	horizontalTRUE	reverseFALSE	pos.lab0.5	pch20	cpoint1	boxesTRUE	colrep(1, length(levels(fac)))	limNULL	gridTRUE	cgrid1	include.originTRUE	originc(0, 0)	sub""	csub1.25	possub"bottomleft"
+sco.distrifunctionfunctionade4score	df	y.rankTRUE	csize1	labelsnames(df)	clabel1	xlimNULL	gridTRUE	cgrid0.75	include.originTRUE	origin0	subNULL	csub1
+sco.gaussfunctionfunctionade4score	df	xlimNULL	steps200	ymaxNULL	subnames(df)	csub1.25	possub"topleft"	legenTRUE	labelrow.names(df)	clabel1	gridTRUE	cgrid1	include.originTRUE	originc(0, 0)
+sco.labelfunctionfunctionade4score	labelnames(score)	clabel1	horizontalTRUE	reverseFALSE	pos.lab0.5	pch20	cpoint1	boxesTRUE	limNULL	gridTRUE	cgrid1	include.originTRUE	originc(0, 0)	sub""	csub1.25	possub"bottomleft"
+sco.matchfunctionfunctionade4score1	score2	labelnames(score1)	clabel1	horizontalTRUE	reverseFALSE	pos.lab0.5	wmatch3	pch20	cpoint1	boxesTRUE	limNULL	gridTRUE	cgrid1	include.originTRUE	originc(0, 0)	sub""	csub1.25	possub"bottomleft"
+sco.quantfunctionfunctionade4score	df	facNULL	clabel1	ablineFALSE	subnames(df)	csub2	possub"topleft"
+scorefunctionfunctionade4x	...
+score.acmfunctionfunctionade4x	xax1	which.varNULL	mfrowNULL	subnames(oritab)	csub2	possub"topleft"	...
+score.coafunctionfunctionade4x	xax1	dotchartFALSE	clab.r1	clab.c1	csub1	cpoi1.5	cet1.5	...
+score.mixfunctionfunctionade4x	xax1	csub2	mfrowNULL	which.varNULL	...
+score.pcafunctionfunctionade4x	xax1	which.varNULL	mfrowNULL	csub2	subnames(x$tab)	ablineTRUE	...
+scores.neigfunctionfunctionade4obj
+sepanfunctionfunctionade4X	nf2
+staticofunctionfunctionade4KTX	KTY	scannfTRUE
+statisfunctionfunctionade4X	scannfTRUE	nf3	tol1e-07
+supcolfunctionfunctionade4x	...
+suprowfunctionfunctionade4x	...
+symbols.phylogfunctionfunctionade4phylog	circles	squares	csize1	clegend1	sub""	csub1	possub"topleft"
+tab.namesfunctionfunctionade4x
+tab.names<-functionfunctionade4x	value
+table.contfunctionfunctionade4df	x1:ncol(df)	y1:nrow(df)	row.labelsrow.names(df)	col.labelsnames(df)	clabel.row1	clabel.col1	abmean.xFALSE	abline.xFALSE	abmean.yFALSE	abline.yFALSE	csize1	clegend0	gridTRUE
+table.distfunctionfunctionade4d	x1:(attr(d, "Size"))	labelsas.character(x)	clabel1	csize1	gridTRUE
+table.paintfunctionfunctionade4df	x1:ncol(df)	ynrow(df):1	row.labelsrow.names(df)	col.labelsnames(df)	clabel.row1	clabel.col1	csize1	clegend1
+table.phylogfunctionfunctionade4df	phylog	x1:ncol(df)	f.phylog0.5	labels.rowgsub("[_]", " ", row.names(df))	clabel.row1	labels.colnames(df)	clabel.col1	labels.nodnames(phylog$nodes)	clabel.nod0	cleaves1	cnodes1	csize1	gridTRUE	clegend0.75
+table.valuefunctionfunctionade4df	x1:ncol(df)	ynrow(df):1	row.labelsrow.names(df)	col.labelsnames(df)	clabel.row1	clabel.col1	csize1	clegend1	gridTRUE
+taxo2phylogfunctionfunctionade4taxo	add.toolsFALSE	root"Root"	abbrevTRUE
+testdimfunctionfunctionade4dudi	...
+triangle.biplotfunctionfunctionade4ta1	ta2	labelas.character(1:nrow(ta1))	draw.lineTRUE	show.positionTRUE	scaleTRUE
+triangle.classfunctionfunctionade4ta	fac	colrep(1, length(levels(fac)))	wtrep(1, length(fac))	cstar1	cellipse0	axesellTRUE	labellevels(fac)	clabel1	cpoint1	pch20	draw.lineTRUE	addaxesFALSE	addmeanFALSE	labeltriangleTRUE	sub""	csub1	possub"bottomright"	show.positionTRUE	scaleTRUE	min3NULL	max3NULL
+triangle.plotfunctionfunctionade4ta	labelas.character(1:nrow(ta))	clabel0	cpoint1	draw.lineTRUE	addaxesFALSE	addmeanFALSE	labeltriangleTRUE	sub""	csub0	possub"topright"	show.positionTRUE	scaleTRUE	min3NULL	max3NULL	boxFALSE
+uniquewt.dffunctionfunctionade4x
+varfacwtfunctionfunctionade4df	facNULL	wtrep(1/nrow(df), nrow(df))	dropFALSE
+variance.phylogfunctionfunctionade4phylog	z	bynamesTRUE	na.actionc("fail", "mean")
+varwtfunctionfunctionade4x	wt	na.rmFALSE
+wcafunctionfunctionade4x	...
+withinpcafunctionfunctionade4df	fac	scalingc("partial", "total")	scannfTRUE	nf2
+witwit.coafunctionfunctionade4dudi	row.blocks	col.blocks	scannfTRUE	nf2
+witwitsepanfunctionfunctionade4ww	mfrowNULL	csub2	plotTRUE

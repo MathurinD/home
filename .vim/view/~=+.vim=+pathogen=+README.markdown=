@@ -1,0 +1,127 @@
+let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
+argglobal
+map <buffer> <silent> \nr ya[op$a:
+map <buffer> <silent> \br :call pandoc_misc#Pandoc_Back_From_Ref()
+map <buffer> <silent> \gr :call pandoc_misc#Pandoc_Goto_Ref()
+map <buffer> <silent> \www :call pandoc_misc#Pandoc_Open_URI()
+map <buffer> <silent> \odt+ :call pandoc_exec#PandocExecute("pandoc -t odt PANDOC#P_BIBS -o %:r.odt %%", "odt" , 1)
+map <buffer> <silent> \odt :call pandoc_exec#PandocExecute("pandoc -t odt PANDOC#P_BIBS -o %:r.odt %%", "odt", 0)
+map <buffer> <silent> \pdf+ :call pandoc_exec#PandocExecute("pandoc --latex-engine xelatex PANDOC#P_BIBS -o %:r.pdf %%", "pdf" , 1)
+map <buffer> <silent> \pdf :call pandoc_exec#PandocExecute("pandoc --latex-engine xelatex PANDOC#P_BIBS -o %:r.pdf %%", "pdf", 0)
+map <buffer> <silent> \html+ :call pandoc_exec#PandocExecute("pandoc -t html -Ss -o %:r.html %%", "html" , 1)
+map <buffer> <silent> \html :call pandoc_exec#PandocExecute("pandoc -t html -Ss -o %:r.html %%", "html", 0)
+map <buffer> <silent> \s :call pandoc_misc#Toggle_Tex_Syntax()
+let s:cpo_save=&cpo
+set cpo&vim
+inoremap <buffer> <silent> < <><Left>
+let &cpo=s:cpo_save
+unlet s:cpo_save
+setlocal keymap=
+setlocal noarabic
+setlocal autoindent
+setlocal balloonexpr=
+setlocal nobinary
+setlocal bufhidden=
+setlocal buflisted
+setlocal buftype=
+setlocal nocindent
+setlocal cinkeys=0{,0},0),:,0#,!^F,o,O,e
+setlocal cinoptions=
+setlocal cinwords=if,else,while,do,for,switch
+setlocal colorcolumn=
+setlocal comments=fb:*,fb:-,fb:+,n:>
+setlocal commentstring=>\ %s
+setlocal complete=.,w,b,u,t,i
+setlocal concealcursor=
+setlocal conceallevel=0
+setlocal completefunc=
+setlocal nocopyindent
+setlocal cryptmethod=
+setlocal nocursorbind
+setlocal nocursorcolumn
+setlocal cursorline
+setlocal define=
+setlocal dictionary=
+setlocal nodiff
+setlocal equalprg=
+setlocal errorformat=
+setlocal expandtab
+if &filetype != 'markdown'
+setlocal filetype=markdown
+endif
+setlocal foldcolumn=0
+setlocal foldenable
+setlocal foldexpr=0
+setlocal foldignore=#
+setlocal foldlevel=20
+setlocal foldmarker={{{,}}}
+setlocal foldmethod=indent
+setlocal foldminlines=1
+setlocal foldnestmax=20
+setlocal foldtext=foldtext()
+setlocal formatexpr=
+setlocal formatoptions=tcqln
+setlocal formatlistpat=^\\s*\\d\\+\\.\\s\\+\\|^[-*+]\\s\\+
+setlocal grepprg=
+setlocal iminsert=2
+setlocal imsearch=2
+setlocal include=
+setlocal includeexpr=
+setlocal indentexpr=GetMyIndent()
+setlocal indentkeys=0{,0},:,0#,!^F,o,O,e
+setlocal noinfercase
+setlocal iskeyword=@,48-57,_,192-255
+setlocal keywordprg=
+setlocal linebreak
+setlocal nolisp
+setlocal nolist
+setlocal makeprg=
+setlocal matchpairs=(:),{:},[:],<:>
+setlocal modeline
+setlocal modifiable
+setlocal nrformats=octal,hex
+setlocal number
+setlocal numberwidth=4
+setlocal omnifunc=htmlcomplete#CompleteTags
+setlocal path=
+setlocal nopreserveindent
+setlocal nopreviewwindow
+setlocal quoteescape=\\
+setlocal noreadonly
+setlocal norelativenumber
+setlocal norightleft
+setlocal rightleftcmd=search
+setlocal noscrollbind
+setlocal shiftwidth=4
+setlocal noshortname
+setlocal smartindent
+setlocal softtabstop=4
+setlocal nospell
+setlocal spellcapcheck=[.?!]\\_[\\])'\"\	\ ]\\+
+setlocal spellfile=
+setlocal spelllang=en
+setlocal statusline=
+setlocal suffixesadd=
+setlocal swapfile
+setlocal synmaxcol=3000
+if &syntax != 'markdown'
+setlocal syntax=markdown
+endif
+setlocal tabstop=4
+setlocal tags=
+setlocal textwidth=0
+setlocal thesaurus=
+setlocal noundofile
+setlocal nowinfixheight
+setlocal nowinfixwidth
+setlocal wrap
+setlocal wrapmargin=0
+let s:l = 19 - ((3 * winheight(0) + 18) / 36)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+19
+normal! 0
+let &so = s:so_save | let &siso = s:siso_save
+doautoall SessionLoadPost
+" vim: set ft=vim :

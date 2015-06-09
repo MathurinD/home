@@ -1,0 +1,250 @@
+[.ergmm.par.listfunctionfunctionlatentnetx	i
+[[.ergmm.par.listfunctionfunctionlatentnetx	i
+$.ergmm.par.listfunctionfunctionlatentnetx	i
+add.mcmc.mle.mle.ergmmfunctionfunctionlatentnetx	Z.refbest.avail.Z.ref.ergmm(x)
+add.mcmc.pmode.pmode.ergmmfunctionfunctionlatentnetx	Z.refbest.avail.Z.ref.ergmm(x)
+add.mkl.mbc.ergmmfunctionfunctionlatentnetx	Z.K.refbest.avail.Z.K.ref.ergmm(x)
+add.mkl.pos.ergmmfunctionfunctionlatentnetx	Z.refbest.avail.Z.ref.ergmm(x)
+as.ergmm.par.listfunctionfunctionlatentnetx	...
+as.mcmcfunctionfunctionlatentnetx	...
+as.mcmc.defaultfunctionfunctionlatentnetx	...
+as.mcmc.ergmmfunctionfunctionlatentnetx	burninFALSE	which.varsNULL	vertex.ic(1)	...
+as.mcmc.list.defaultfunctionfunctionlatentnetx	...
+as.mcmc.list.ergmmfunctionfunctionlatentnetx	burninFALSE	which.varsNULL	vertex.ic(1)	...
+as.mcmc.list.ergmm.par.listfunctionfunctionlatentnetx	which.vars	start1	thin1	...
+as.mcmc.mcmc.listfunctionfunctionlatentnetx	...
+backoff.checkfunctionfunctionlatentnetmodel	sample	control
+bayesmbcfunctionfunctionlatentnetG	Z	prior	Z.K.refNULL	sample.size2000	interval10	burnin500	verboseFALSE
+bayesmbc.MCMC.CfunctionfunctionlatentnetG	start	prior	sample.sizeNULL	intervalNULL
+bayesmbc.snowFTfunctionfunctionlatentnetthreads	G	Z	prior	Z.K.refNULL	sample.size2000	interval10	burnin500	verboseFALSE
+best.avail.Z.K.ref.ergmmfunctionfunctionlatentnetx
+best.avail.Z.ref.ergmmfunctionfunctionlatentnetx
+bic.ergmmfunctionfunctionlatentnetobject
+bipartite.augmentfunctionfunctionlatentnetm
+clust.homogeneityfunctionfunctionlatentnetx	ref	softTRUE	margFALSE
+cmp.listsfunctionfunctionlatentnetx	y
+combine.2ergmmfunctionfunctionlatentnetfit1	fit2
+control.ergmmfunctionfunctionlatentnetsample.size4000	burnin10000	interval10	threads1	kl.threads1	mle.maxit100	Z.delta0.6	RE.delta0.6	group.deltas0.4	pilot.runs4	pilot.factor0.8	pilot.discard.first0.5	target.acc.rate0.234	backoff.threshold0.05	backoff.factor0.2	accept.allFALSE	store.burninFALSE	refine.user.startTRUE
+coords.1DfunctionfunctionlatentnetZ	curve1D	jitter1D
+del.iterationfunctionfunctionlatentnetmcmcsample	i
+dlpY.ddispersion.fslistlistlatentnetNot a function
+dlpY.ddispersion.normal.identityfunctionfunctionlatentnetY	eta	dispersionNULL	fam.parNULL
+dlpY.deta.Bernoulli.logitfunctionfunctionlatentnetY	eta	dispersionNULL	fam.parNULL
+dlpY.deta.binomial.logitfunctionfunctionlatentnetY	eta	dispersionNULL	fam.par
+dlpY.deta.fslistlistlatentnetNot a function
+dlpY.deta.normal.identityfunctionfunctionlatentnetY	eta	dispersionNULL	fam.parNULL
+dlpY.deta.Poisson.logfunctionfunctionlatentnetY	eta	dispersionNULL	fam.parNULL
+dlpY.dZ.bilinearfunctionfunctionlatentnetZ	dlpY.deta
+dlpY.dZ.fslistlistlatentnetNot a function
+dlpY.dZ.negative.EuclideanfunctionfunctionlatentnetZ	dlpY.deta
+dsclinvchisqfunctionfunctionlatentnetx	df	scale1	logFALSE
+ergmmfunctionfunctionlatentnetformula	responseNULL	family"Bernoulli"	fam.parNULL	controlergmm.control()	user.startlist()	priorergmm.prior()	tofitc("mcmc", "mkl", "mkl.mbc", "procrustes", "klswitch")	Z.refNULL	Z.K.refNULL	seedNULL	verboseFALSE
+ergmm.controlfunctionfunctionlatentnetsample.size4000	burnin10000	interval10	threads1	kl.threads1	mle.maxit100	Z.delta0.6	RE.delta0.6	group.deltas0.4	pilot.runs4	pilot.factor0.8	pilot.discard.first0.5	target.acc.rate0.234	backoff.threshold0.05	backoff.factor0.2	accept.allFALSE	store.burninFALSE	refine.user.startTRUE
+ergmm.drawcirclefunctionfunctionlatentnetcenter	radius	length50	...
+ergmm.drawpiefunctionfunctionlatentnetcenter	radius	probs	n50	cols1:length(probs)	...
+ergmm.etafunctionfunctionlatentnetmodel	theta
+ergmm.EYfunctionfunctionlatentnetmodel	theta	NA.unobservedTRUE
+ergmm.fit.depslistlistlatentnetNot a function
+ergmm.fit.deps$pmodecharactercharacterlatentnetNot a function
+ergmm.fit.deps$mcmccharactercharacterlatentnetNot a function
+ergmm.fit.deps$mklcharactercharacterlatentnetNot a function
+ergmm.fit.deps$mkl.mbccharactercharacterlatentnetNot a function
+ergmm.fit.deps$mlecharactercharacterlatentnetNot a function
+ergmm.fit.deps$klswitchcharactercharacterlatentnetNot a function
+ergmm.fit.deps$procrustescharactercharacterlatentnetNot a function
+ergmm.geodesicmatrixfunctionfunctionlatentnetmodel
+ergmm.get.modelfunctionfunctionlatentnetformula	response	family	fam.par	prior
+ergmm.initvalsfunctionfunctionlatentnetmodel	user.start	prior	control
+ergmm.lpfunctionfunctionlatentnetmodel	theta	prior	givenlist()	optc("lpY", "lpZ", "lpBeta", "lpRE", "lpREV", "lpLV")	up.to.constFALSE
+ergmm.lp.gradfunctionfunctionlatentnetmodel	theta	prior	givenlist()	optc("lpY", "lpZ", "lpBeta", "lpRE", "lpREV", "lpLV", "lpdispersion")
+ergmm.lp.grad.approxfunctionfunctionlatentnetwhich.vars	model	theta	prior	delta	givenlist()	optc("lpY", "lpZ", "lpBeta", "lpRE", "lpREV", "lpLV", "lpdispersion")
+ergmm.lpBetafunctionfunctionlatentnettheta	prior	givenlist()
+ergmm.lpBeta.gradfunctionfunctionlatentnettheta	prior	givenlist()
+ergmm.lpdispersionfunctionfunctionlatentnettheta	prior	givenlist()
+ergmm.lpdispersion.gradfunctionfunctionlatentnettheta	prior	givenlist()
+ergmm.lpLVfunctionfunctionlatentnettheta	prior	givenlist()
+ergmm.lpLV.gradfunctionfunctionlatentnettheta	prior	givenlist()
+ergmm.lpREfunctionfunctionlatentnettheta	givenlist()
+ergmm.lpRE.gradfunctionfunctionlatentnettheta	givenlist()
+ergmm.lpREVfunctionfunctionlatentnettheta	prior	givenlist()
+ergmm.lpREV.gradfunctionfunctionlatentnettheta	prior	givenlist()
+ergmm.lpYfunctionfunctionlatentnetmodel	theta	givenlist()	up.to.constFALSE
+ergmm.lpY.Cfunctionfunctionlatentnetmodel	theta
+ergmm.lpY.gradfunctionfunctionlatentnetmodel	theta	givenlist()
+ergmm.lpZfunctionfunctionlatentnettheta	givenlist()
+ergmm.lpZ.gradfunctionfunctionlatentnettheta	givenlist()
+ergmm.MCMC.Cfunctionfunctionlatentnetmodel	start	prior	control	sample.sizeNULL	intervalNULL
+ergmm.MCMC.snowFTfunctionfunctionlatentnetthreads	reps	model.l	start.l	prior.l	control.l	sample.size.lNULL	interval.lNULL
+ergmm.MCMC.snowFT.slavefunctionfunctionlatentneti	lib	model.l	start.l	prior.l	control.l	sample.size.lNULL	interval.lNULL
+ergmm.midarrowfunctionfunctionlatentnetx0	y0	x1	y1	length0.25	angle30	code2	colpar("fg")	ltyNULL	lwdpar("lwd")	xpdNULL
+ERGMM.PAR_LLK_NAMEScharactercharacterlatentnetNot a function
+ERGMM.PAR_VAR_NAMEScharactercharacterlatentnetNot a function
+ergmm.permutationfunctionfunctionlatentnetn
+ergmm.plotting.regionfunctionfunctionlatentnetZ.pos	Z.mean	Z.var	include.center	pad
+ergmm.plotting.vertex.radiusfunctionfunctionlatentnetvertex.cex	xylim	object.scale
+ergmm.priorfunctionfunctionlatentnet...	adjust.beta.varTRUE
+ergmm.statsevalfunctionfunctionlatentnetmcmc.out	model	start	prior	control	Z.refNULL	Z.K.refNULL
+ergmm.tofit.resolvefunctionfunctionlatentnettofit
+extraneous.argcheckfunctionfunctionlatentnet...
+EY.Bernoulli.logitfunctionfunctionlatentneteta	dispersionNULL	fam.parNULL
+EY.binomial.logitfunctionfunctionlatentneteta	dispersionNULL	fam.par
+EY.fslistlistlatentnetNot a function
+EY.normal.identityfunctionfunctionlatentneteta	dispersionNULL	fam.parNULL
+EY.Poisson.logfunctionfunctionlatentneteta	dispersionNULL	fam.parNULL
+fam.par.checkfunctionfunctionlatentnetmodel
+family.IDslistlistlatentnetNot a function
+family.IDs$BernoullinumericnumericlatentnetNot a function
+family.IDs$Bernoulli.logitnumericnumericlatentnetNot a function
+family.IDs$binomialnumericnumericlatentnetNot a function
+family.IDs$binomial.logitnumericnumericlatentnetNot a function
+family.IDs$PoissonnumericnumericlatentnetNot a function
+family.IDs$Poisson.lognumericnumericlatentnetNot a function
+family.IDs$Bernoulli.cont.logitnumericnumericlatentnetNot a function
+family.IDs$binomial.cont.logitnumericnumericlatentnetNot a function
+family.IDs$Poisson.cont.lognumericnumericlatentnetNot a function
+family.IDs$normalnumericnumericlatentnetNot a function
+family.IDs$normal.identitynumericnumericlatentnetNot a function
+family.IDs$GaussiannumericnumericlatentnetNot a function
+family.IDs$Gaussian.identitynumericnumericlatentnetNot a function
+family.namescharactercharacterlatentnetNot a function
+filter.listfunctionfunctionlatentnetx	y
+find.mklfunctionfunctionlatentnetmodel	sample	control
+find.mlefunctionfunctionlatentnetmodel	start	givenlist()	control	hessianFALSE	mllkTRUE
+find.mle.loopfunctionfunctionlatentnetmodel	start	control
+find.mpefunctionfunctionlatentnetmodel	start	givenlist()	priorlist()	control	fit.varsNULL	optc("lpY", "lpZ", "lpBeta", "lpRE", "lpREV", "lpLV", "lpdispersion")	hessianFALSE	mlpTRUE
+find.pmode.loopfunctionfunctionlatentnetmodel	start	prior	control
+FIT_ALLlistlistlatentnetNot a function
+FIT_ALL$betalogicallogicallatentnetNot a function
+FIT_ALL$ZlogicallogicallatentnetNot a function
+FIT_ALL$senderlogicallogicallatentnetNot a function
+FIT_ALL$receiverlogicallogicallatentnetNot a function
+FIT_ALL$socialitylogicallogicallatentnetNot a function
+FIT_ALL$Z.varlogicallogicallatentnetNot a function
+FIT_ALL$Z.meanlogicallogicallatentnetNot a function
+FIT_ALL$sender.varlogicallogicallatentnetNot a function
+FIT_ALL$receiver.varlogicallogicallatentnetNot a function
+FIT_ALL$sociality.varlogicallogicallatentnetNot a function
+FIT_ALL$dispersionlogicallogicallatentnetNot a function
+FIT_MLElistlistlatentnetNot a function
+FIT_MLE$betalogicallogicallatentnetNot a function
+FIT_MLE$ZlogicallogicallatentnetNot a function
+FIT_MLE$senderlogicallogicallatentnetNot a function
+FIT_MLE$receiverlogicallogicallatentnetNot a function
+FIT_MLE$socialitylogicallogicallatentnetNot a function
+FIT_MLE$dispersionlogicallogicallatentnetNot a function
+get.beta.efffunctionfunctionlatentnetmodel
+get.beta.extfunctionfunctionlatentnetmodel	sample
+get.init.deltasfunctionfunctionlatentnetmodel	control
+get.sample.deltasfunctionfunctionlatentnetmodel	sample	control
+getYmfunctionfunctionlatentnetYg	responseNULL
+gof.ergmmfunctionfunctionlatentnetobject	...	nsim100	GOF~idegree + odegree + distance	verboseFALSE
+InitErgmm.1functionfunctionlatentnetmodel	mean0	var9
+InitErgmm.bilinearfunctionfunctionlatentnetmodel	d	G0	var.mul1/8	varNULL	var.df.mul1	var.dfNULL	mean.var.mul2	mean.varNULL	pK.mul1	pKNULL
+InitErgmm.euclideanfunctionfunctionlatentnetmodel	d	G0	var.mul1/8	varNULL	var.df.mul1	var.dfNULL	mean.var.mul2	mean.varNULL	pK.mul1	pKNULL
+InitErgmm.interceptfunctionfunctionlatentnetmodel	mean0	var9
+InitErgmm.Interceptfunctionfunctionlatentnetmodel	mean0	var9
+InitErgmm.latentcovfunctionfunctionlatentnetmodel	x	attrnameNULL	mean0	var9
+InitErgmm.loopcovfunctionfunctionlatentnetmodel	attrname	mean0	var9
+InitErgmm.loopfactorfunctionfunctionlatentnetmodel	attrname	base1	mean0	var9
+InitErgmm.loopsfunctionfunctionlatentnetmodel	mean0	var9
+InitErgmm.receivercovfunctionfunctionlatentnetmodel	attrname	force.factorFALSE	mean0	var9
+InitErgmm.rreceiverfunctionfunctionlatentnetmodel	var1	var.df3
+InitErgmm.rsenderfunctionfunctionlatentnetmodel	var1	var.df3
+InitErgmm.rsocialityfunctionfunctionlatentnetmodel	var1	var.df3
+InitErgmm.sendercovfunctionfunctionlatentnetmodel	attrname	force.factorFALSE	mean0	var9
+InitErgmm.socialitycovfunctionfunctionlatentnetmodel	attrname	force.factorFALSE	mean0	var9
+inv.fit.varsfunctionfunctionlatentnetfit.vars
+is.latentfunctionfunctionlatentnetx
+is.latent.clusterfunctionfunctionlatentnetx
+is.receiverfunctionfunctionlatentnetx
+is.senderfunctionfunctionlatentnetx
+klswitch.CfunctionfunctionlatentnetQ.start	sample	ZNULL	maxit100	verbose0
+klswitch.snowFTfunctionfunctionlatentnetthreads	Q.start	sample	ZNULL	maxit100	verbose0
+klswitch.step2.snowFT.slavefunctionfunctionlatentneti	lib	Q	pK.l
+labelswitch.KfunctionfunctionlatentnetZ.K	perm
+labelswitch.sample.ergmmfunctionfunctionlatentnetx	Z.K.refbest.avail.Z.K.ref.ergmm(x)
+latentfunctionfunctionlatentnet...
+latent.effect.bilinearfunctionfunctionlatentnetZ
+latent.effect.fslistlistlatentnetNot a function
+latent.effect.IDslistlistlatentnetNot a function
+latent.effect.IDs$negative.EuclideannumericnumericlatentnetNot a function
+latent.effect.IDs$bilinearnumericnumericlatentnetNot a function
+latent.effect.invarianceslistlistlatentnetNot a function
+latent.effect.invariances$negative.EuclideancharactercharacterlatentnetNot a function
+latent.effect.invariances$bilinearcharactercharacterlatentnetNot a function
+latent.effect.namescharactercharacterlatentnetNot a function
+latent.effect.negative.EuclideanfunctionfunctionlatentnetZ
+latentclusterfunctionfunctionlatentnet...
+length.ergmm.par.listfunctionfunctionlatentnetx
+lp.worksfunctionfunctionlatentnetname	theta	given
+lpsumfunctionfunctionlatentnettheta	whichc("lpY", "lpZ", "lpBeta", "lpRE", "lpREV", "lpLV", "lpdispersion")
+lpY.Bernoulli.logitfunctionfunctionlatentnetY	eta	dispersionNULL	fam.parNULL
+lpY.binomial.logitfunctionfunctionlatentnetY	eta	dispersionNULL	fam.par
+lpY.fslistlistlatentnetNot a function
+lpY.normal.identityfunctionfunctionlatentnetY	eta	dispersionNULL	fam.parNULL
+lpY.Poisson.logfunctionfunctionlatentnetY	eta	dispersionNULL	fam.parNULL
+lpYc.Bernoulli.logitfunctionfunctionlatentnetY	eta	dispersionNULL	fam.parNULL
+lpYc.binomial.logitfunctionfunctionlatentnetY	eta	dispersionNULL	fam.par
+lpYc.fslistlistlatentnetNot a function
+lpYc.normal.identityfunctionfunctionlatentnetY	eta	dispersionNULL	fam.parNULL
+lpYc.Poisson.logfunctionfunctionlatentnetY	eta	dispersionNULL	fam.parNULL
+mbc.VII.EMfunctionfunctionlatentnetG	Z	EM.maxit200	EM.tol.Machine$double.eps^0.5	EM.maxstarts15	resumeNULL
+mcmc.diagnostics.ergmmfunctionfunctionlatentnetobject	which.diagsc("cor", "acf", "trace", "raftery")	burninFALSE	which.varsNULL	vertex.ic(1)	...
+merge.ergmmfunctionfunctionlatentnetx	y	...	verboseFALSE
+merge.listsfunctionfunctionlatentnet...
+mk.lp.optim.fsfunctionfunctionlatentnetfit.vars	model	prior	givenlist()	optc("lpY", "lpZ", "lpBeta", "lpRE", "lpREV", "lpLV", "lpdispersion")
+not.givenfunctionfunctionlatentnetname	theta	given
+nterms.modelfunctionfunctionlatentnetmodel
+nullapplyfunctionfunctionlatentnetX	margin	FUN	...
+observed.dyadsfunctionfunctionlatentnetYg
+P.free.allfunctionfunctionlatentnetNO_ARGS
+pack.optimfunctionfunctionlatentnettheta	fit.varsNULL
+plot.ergmmfunctionfunctionlatentnetx	...	vertex.cex1	vertex.sides16 * ceiling(sqrt(vertex.cex))	what"mkl"	mainNULL	xlabNULL	ylabNULL	zlabNULL	xlimNULL	ylimNULL	zlimNULL	object.scaleformals(plot.network.default)[["object.scale"]]	padformals(plot.network.default)[["pad"]]	cluster.colc("red", "green", "blue", "cyan", "magenta", "orange", "yellow", 	cluster.col    "purple")	vertex.colNULL	print.formulaTRUE	edge.col8	Z.refNULL	Z.K.refNULL	zoom.onNULL	pieFALSE	labelsFALSE	rand.effNULL	rand.eff.capNULL	plot.meansTRUE	plot.varsTRUE	suppress.axesFALSE	jitter1D1	curve1DTRUE	use.rglFALSE	vertex.3d.cex1/20	edge.plot3dTRUE	suppress.centerFALSE	density.parlist()
+plot3d.ergmmfunctionfunctionlatentnetx	...
+post.predict.Cfunctionfunctionlatentnetmodel	sample	control	MKLFALSE
+post.predict.Rfunctionfunctionlatentnetmodel	sample	control	MKLFALSE
+predict.ergmmfunctionfunctionlatentnetobject	...	type"post"
+print.ergmmfunctionfunctionlatentnetx	...
+print.ergmm.modelfunctionfunctionlatentnetx	...
+print.summary.ergmmfunctionfunctionlatentnetx	...
+PRIOR_NAMESlistlistlatentnetNot a function
+PRIOR_NAMES$sendercharactercharacterlatentnetNot a function
+PRIOR_NAMES$receivercharactercharacterlatentnetNot a function
+PRIOR_NAMES$socialitycharactercharacterlatentnetNot a function
+PRIOR_NAMES$ZcharactercharacterlatentnetNot a function
+procrfunctionfunctionlatentnetx	...
+procr.ergmm.modelfunctionfunctionlatentnetx	A	ref	...
+procr.matrixfunctionfunctionlatentnetx	ref	...	scaleFALSE	reflectTRUE
+procr.sample.ergmmfunctionfunctionlatentnetx	Z.refbest.avail.Z.ref.ergmm(x)	...
+procrustes.Z.mean.Cfunctionfunctionlatentnetsample	Z.ref	centerFALSE	verbose0
+pY.Bernoulli.logitfunctionfunctionlatentnetY1	eta	dispersionNULL	fam.parNULL
+pY.binomial.logitfunctionfunctionlatentnetY	eta	dispersionNULL	fam.par
+pY.fslistlistlatentnetNot a function
+pY.normal.identityfunctionfunctionlatentnetY	eta	dispersionNULL	fam.parNULL
+pY.Poisson.logfunctionfunctionlatentnetY	eta	dispersionNULL	fam.parNULL
+reg.fit.varsfunctionfunctionlatentnetfit.vars
+rsm.Bernoulli.logitfunctionfunctionlatentneteta	dispersionNULL	fam.parNULL
+rsm.binomial.logitfunctionfunctionlatentneteta	dispersionNULL	fam.par
+rsm.fslistlistlatentnetNot a function
+rsm.normal.identityfunctionfunctionlatentneteta	dispersionNULL	fam.parNULL
+rsm.Poisson.logfunctionfunctionlatentneteta	dispersionNULL	fam.parNULL
+scalefunctionfunctionlatentnetx	centerTRUE	scaleTRUE
+scale.ergmm.modelfunctionfunctionlatentnetx	theta	...
+seldropfunctionfunctionlatentnetx	i
+show.ergmmfunctionfunctionlatentnetx	...
+sim.1.ergmmfunctionfunctionlatentnetmodel	par	priorlist()
+simulate.ergmmfunctionfunctionlatentnetobject	nsim1	seedNULL	...
+simulate.ergmm.modelfunctionfunctionlatentnetobject	nsim1	seedNULL	par	priorlist()	...
+stack.ergmm.par.list.listfunctionfunctionlatentnetx	...
+statsreeval.ergmmfunctionfunctionlatentnetx	Z.refNULL	Z.K.refNULL	rerunFALSE
+sum.listsfunctionfunctionlatentnet...
+summary.ergmmfunctionfunctionlatentnetobject	point.estc(if (!is.null(object[["mle"]])) "mle", if (!is.null(object[["sample"]])) c("pmean", 	point.est    "mkl"))	quantilesc(0.025, 0.975)	se"mle" %in% point.est	...
+switch.Q.KfunctionfunctionlatentnetK	G	smooth1/G
+thin.ergmmfunctionfunctionlatentnetx	by	...
+THra3dfunctionfunctionlatentnetx	yNULL	zNULL	size1	color"white"	alpha1	...
+THron3dfunctionfunctionlatentnetx	yNULL	zNULL	size1	...
+unpack.optimfunctionfunctionlatentnetv	fit.vars	model
+unstack.ergmm.par.listfunctionfunctionlatentnetx	...
+which.perm.nearestfunctionfunctionlatentnetK.ref	K
+xtabs.ergmmfunctionfunctionlatentnetx	ref	min.plurality0
+zero.listfunctionfunctionlatentnetx

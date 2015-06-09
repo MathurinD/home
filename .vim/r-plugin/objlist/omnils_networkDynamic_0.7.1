@@ -1,0 +1,68 @@
+%k%functionfunctionnetworkDynamicdnet	at
+%t%functionfunctionnetworkDynamicx	at
+activate.edge.attributefunctionfunctionnetworkDynamicx	prefix	value	onsetNULL	terminusNULL	lengthNULL	atNULL	eseq_along(x$mel)	dynamic.onlyFALSE
+activate.edge.valuefunctionfunctionnetworkDynamicx	prefix	value	onsetNULL	terminusNULL	lengthNULL	atNULL	eseq_along(x$mel)	dynamic.onlyFALSE
+activate.edgesfunctionfunctionnetworkDynamicx	onsetNULL	terminusNULL	lengthNULL	atNULL	eseq_along(x$mel)
+activate.network.attributefunctionfunctionnetworkDynamicx	prefix	value	onsetNULL	terminusNULL	lengthNULL	atNULL	dynamic.onlyFALSE
+activate.vertex.attributefunctionfunctionnetworkDynamicx	prefix	value	onsetNULL	terminusNULL	lengthNULL	atNULL	vseq_len(network.size(x))	dynamic.onlyFALSE
+activate.verticesfunctionfunctionnetworkDynamicx	onsetNULL	terminusNULL	lengthNULL	atNULL	vseq_len(network.size(x))
+add.edge.networkDynamicfunctionfunctionnetworkDynamicx	tail	head	names.evalNULL	vals.evalNULL	edge.checkFALSE	edge.pidNULL	...
+add.edges.activefunctionfunctionnetworkDynamicx	tail	head	names.evalNULL	vals.evalNULL	onsetNULL	terminusNULL	lengthNULL	atNULL	...
+add.edges.networkDynamicfunctionfunctionnetworkDynamicx	tail	head	names.evalNULL	vals.evalNULL	edge.pidNULL	...
+add.vertices.activefunctionfunctionnetworkDynamicx	nv	vattrNULL	last.modeTRUE	onsetNULL	terminusNULL	lengthNULL	atNULL	...
+add.vertices.networkDynamicfunctionfunctionnetworkDynamicx	nv	vattrNULL	last.modeTRUE	vertex.pidNULL	...
+adjust.activityfunctionfunctionnetworkDynamicnd	offset0	factor1
+as.data.frame.networkDynamicfunctionfunctionnetworkDynamicx	row.namesNULL	optionalFALSE	eseq_along(x$mel)	startNULL	endNULL	active.defaultTRUE	...
+as.network.networkDynamicfunctionfunctionnetworkDynamicx	...
+as.networkDynamicfunctionfunctionnetworkDynamicobject	...
+as.networkDynamic.networkfunctionfunctionnetworkDynamicobject	...
+as.networkDynamic.networkDynamicfunctionfunctionnetworkDynamicobject	...
+deactivate.edge.attributefunctionfunctionnetworkDynamicx	prefix	onsetNULL	terminusNULL	lengthNULL	atNULL	eseq_along(x$mel)	dynamic.onlyFALSE
+deactivate.edgesfunctionfunctionnetworkDynamicx	onsetNULL	terminusNULL	lengthNULL	atNULL	eseq_along(x$mel)
+deactivate.network.attributefunctionfunctionnetworkDynamicx	prefix	onsetNULL	terminusNULL	lengthNULL	atNULL	dynamic.onlyFALSE
+deactivate.vertex.attributefunctionfunctionnetworkDynamicx	prefix	onsetNULL	terminusNULL	lengthNULL	atNULL	vseq_len(network.size(x))	dynamic.onlyFALSE
+deactivate.verticesfunctionfunctionnetworkDynamicx	onsetNULL	terminusNULL	lengthNULL	atNULL	vseq_len(network.size(x))	deactivate.edgesFALSE
+delete.edge.activityfunctionfunctionnetworkDynamicx	eseq_along(x$mel)
+delete.vertex.activityfunctionfunctionnetworkDynamicx	vseq_len(network.size(x))
+edge.pid.checkfunctionfunctionnetworkDynamicnd
+get.change.timesfunctionfunctionnetworkDynamicx	vertex.activityTRUE	edge.activityTRUE	ignore.infTRUE	vertex.attribute.activityTRUE	edge.attribute.activityTRUE	network.attribute.activityTRUE
+get.dyads.activefunctionfunctionnetworkDynamicnD	onsetNULL	terminusNULL	lengthNULL	atNULL	rulec("any", "all", "earliest", "latest")	active.defaultTRUE
+get.edge.activityfunctionfunctionnetworkDynamicx	eseq_along(x$mel)	as.spellListFALSE	active.defaultTRUE
+get.edge.attribute.activefunctionfunctionnetworkDynamicx	prefix	onsetNULL	terminusNULL	lengthNULL	atNULL	rulec("any", "all", "earliest", "latest")	active.defaultTRUE	dynamic.onlyFALSE	require.activeFALSE	return.teaFALSE	unlistTRUE
+get.edge.idfunctionfunctionnetworkDynamicnd	pid
+get.edge.pidfunctionfunctionnetworkDynamicnd	id
+get.edge.value.activefunctionfunctionnetworkDynamicx	prefix	onsetNULL	terminusNULL	lengthNULL	atNULL	rulec("any", "all", "earliest", "latest")	active.defaultTRUE	dynamic.onlyFALSE	require.activeFALSE	return.teaFALSE	unlistTRUE
+get.edgeIDs.activefunctionfunctionnetworkDynamicx	v	onsetNULL	terminusNULL	lengthNULL	atNULL	alterNULL	neighborhoodc("out", "in", "combined")	rulec("any", "all", "earliest", "latest")	na.omitTRUE	active.defaultTRUE
+get.edges.activefunctionfunctionnetworkDynamicx	v	onsetNULL	terminusNULL	lengthNULL	atNULL	alterNULL	neighborhoodc("out", "in", "combined")	rulec("any", "all", "earliest", "latest")	na.omitTRUE	active.defaultTRUE
+get.neighborhood.activefunctionfunctionnetworkDynamicx	v	onsetNULL	terminusNULL	lengthNULL	atNULL	typec("out", "in", "combined")	rulec("any", "all", "earliest", "latest")	na.omitTRUE	active.defaultTRUE
+get.network.attribute.activefunctionfunctionnetworkDynamicx	prefix	onsetNULL	terminusNULL	lengthNULL	atNULL	rulec("any", "all", "earliest", "latest")	dynamic.onlyFALSE	return.teaFALSE	unlistTRUE
+get.networksfunctionfunctionnetworkDynamicdnet	startNULL	endNULL	time.incrementNULL	onsetsNULL	terminiNULL	...
+get.vertex.activityfunctionfunctionnetworkDynamicx	vseq_len(network.size(x))	as.spellListFALSE	active.defaultTRUE
+get.vertex.attribute.activefunctionfunctionnetworkDynamicx	prefix	onsetNULL	terminusNULL	lengthNULL	atNULL	rulec("any", "all", "earliest", "latest")	na.omitFALSE	null.naTRUE	active.defaultTRUE	dynamic.onlyFALSE	require.activeFALSE	return.teaFALSE	unlistTRUE
+get.vertex.idfunctionfunctionnetworkDynamicnd	pid
+get.vertex.pidfunctionfunctionnetworkDynamicnd	id
+initialize.pidsfunctionfunctionnetworkDynamicnd
+is.activefunctionfunctionnetworkDynamicx	onsetNULL	terminusNULL	lengthNULL	atNULL	eNULL	vNULL	rulec("any", "all", "earliest", "latest")	active.defaultTRUE
+is.adjacent.activefunctionfunctionnetworkDynamicx	vi	vj	onsetNULL	terminusNULL	lengthNULL	atNULL	rulec("any", "all", "earliest", "latest")	na.omitFALSE	active.defaultTRUE
+is.networkDynamicfunctionfunctionnetworkDynamicx
+list.edge.attributes.activefunctionfunctionnetworkDynamicx	onsetNULL	terminusNULL	lengthNULL	atNULL	na.omitFALSE	rulec("any", "all")	eseq_along(x$mel)	require.activeFALSE	active.defaultTRUE	dynamic.onlyFALSE
+list.network.attributes.activefunctionfunctionnetworkDynamicx	onsetNULL	terminusNULL	lengthNULL	atNULL	na.omitFALSE	rulec("any", "all")	dynamic.onlyFALSE
+list.vertex.attributes.activefunctionfunctionnetworkDynamicx	onsetNULL	terminusNULL	lengthNULL	atNULL	na.omitFALSE	rulec("any", "all")	vseq_len(network.size(x))	require.activeFALSE	active.defaultTRUE	dynamic.onlyFALSE
+network.collapsefunctionfunctionnetworkDynamicdnet	onsetNULL	terminusNULL	atNULL	lengthNULL	rulec("any", "all", "earliest", "latest")	active.defaultTRUE	retain.all.verticesFALSE	rm.time.infoTRUE	...
+network.dyadcount.activefunctionfunctionnetworkDynamicx	onsetNULL	terminusNULL	lengthNULL	atNULL	rulec("any", "all", "earliest", "latest")	na.omitTRUE	active.defaultTRUE
+network.dynamic.checkfunctionfunctionnetworkDynamicx	verboseTRUE	completeTRUE
+network.edgecount.activefunctionfunctionnetworkDynamicx	onsetNULL	terminusNULL	lengthNULL	atNULL	rulec("any", "all", "earliest", "latest")	na.omitTRUE	active.defaultTRUE
+network.extractfunctionfunctionnetworkDynamicx	onsetNULL	terminusNULL	lengthNULL	atNULL	rulec("any", "all")	active.defaultTRUE	retain.all.verticesFALSE	trim.spellsFALSE
+network.naedgecount.activefunctionfunctionnetworkDynamicx	onsetNULL	terminusNULL	lengthNULL	atNULL	rulec("any", "all", "earliest", "latest")	active.defaultTRUE
+network.size.activefunctionfunctionnetworkDynamicx	onsetNULL	terminusNULL	lengthNULL	atNULL	rulec("any", "all", "earliest", "latest")	active.defaultTRUE
+networkDynamicfunctionfunctionnetworkDynamicbase.netNULL	edge.togglesNULL	vertex.togglesNULL	edge.spellsNULL	vertex.spellsNULL	edge.changesNULL	vertex.changesNULL	network.listNULL	onsetsNULL	terminiNULL	vertex.pidNULL	startNULL	endNULL	net.obs.periodNULL	verboseTRUE	create.TEAsFALSE	edge.TEA.namesNULL	vertex.TEA.namesNULL	...
+print.networkDynamicfunctionfunctionnetworkDynamicx	...
+read.sonfunctionfunctionnetworkDynamicfile	guess.TEATRUE
+reconcile.edge.activityfunctionfunctionnetworkDynamicnet	modec("match.to.vertices", "reduce.to.vertices")	active.defaultTRUE
+reconcile.vertex.activityfunctionfunctionnetworkDynamicnet	modec("expand.to.edges", "match.to.edges", "encompass.edges")	edge.active.defaultTRUE
+search.spellfunctionfunctionnetworkDynamicneedle	haystack
+spells.hitfunctionfunctionnetworkDynamicneedle	haystack
+spells.overlapfunctionfunctionnetworkDynamics1	s2
+vertex.pid.checkfunctionfunctionnetworkDynamicnd
+when.edge.attrs.matchfunctionfunctionnetworkDynamicnd	attrname	value	match.op"=="	rule"earliest"	no.matchInf	eseq_along(nd$mel)
+when.vertex.attrs.matchfunctionfunctionnetworkDynamicnd	attrname	value	match.op"=="	rule"earliest"	no.matchInf	vseq_len(network.size(nd))

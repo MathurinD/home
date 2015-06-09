@@ -1,0 +1,224 @@
+accuracyMeasuresfunctionfunctionWGCNApredicted	observedNULL	typec("auto", "binary", "quantitative")	levelsif (isTRUE(all.equal(dim(predicted), c(2, 2)))) colnames(predicted) else if (is.factor(predicted)) sort(unique(c(as.character(predicted), 	levels    as.character(observed)))) else sort(unique(c(observed, predicted)))	negativeLevellevels[2]	positiveLevellevels[1]
+addErrorBarsfunctionfunctionWGCNAmeans	errors	two.sideFALSE
+addGridfunctionfunctionWGCNAlinesPerTickNULL	horizTRUE	vertFALSE	col"grey30"	lty3
+addGuideLinesfunctionfunctionWGCNAdendro	allFALSE	count50	positionsNULL	col"grey30"	lty3	hang0
+addTraitToMEsfunctionfunctionWGCNAmultiME	multiTraits
+adjacencyfunctionfunctionWGCNAdatExpr	selectColsNULL	type"unsigned"	powerif (type == "distance") 1 else 6	corFnc"cor"	corOptions"use = 'p'"	distFnc"dist"	distOptions"method = 'euclidean'"
+adjacency.fromSimilarityfunctionfunctionWGCNAsimilarity	type"unsigned"	powerif (type == "distance") 1 else 6
+adjacency.polyRegfunctionfunctionWGCNAdatExpr	degree3	symmetrizationMethod"mean"
+adjacency.splineRegfunctionfunctionWGCNAdatExpr	df6 - (nrow(datExpr) < 100) - (nrow(datExpr) < 30)	symmetrizationMethod"mean"	...
+AFcorMIfunctionfunctionWGCNAr	m
+alignExprfunctionfunctionWGCNAdatExpr	yNULL
+allocateJobsfunctionfunctionWGCNAnTasks	nWorkers
+allowWGCNAThreadsfunctionfunctionWGCNAnThreadsNULL
+automaticNetworkScreeningfunctionfunctionWGCNAdatExpr	y	power6	networkType"unsigned"	detectCutHeight0.995	minModuleSizemin(20, ncol(as.matrix(datExpr))/2)	datMENULL	getQValuesTRUE	...
+automaticNetworkScreeningGSfunctionfunctionWGCNAdatExpr	GS	power6	networkType"unsigned"	detectCutHeight0.995	minModuleSizemin(20, ncol(as.matrix(datExpr))/2)	datMENULL
+bicorfunctionfunctionWGCNAx	yNULL	robustXTRUE	robustYTRUE	use"all.obs"	maxPOutliers1	quick0	pearsonFallback"individual"	cosineFALSE	cosineX	cosineY	nThreads0	verbose0	indent0
+bicorAndPvaluefunctionfunctionWGCNAx	yNULL	use"pairwise.complete.obs"	alternativec("two.sided", "less", "greater")	...
+blockSizefunctionfunctionWGCNAmatrixSize	rectangularBlocksTRUE	maxMemoryAllocationNULL	overheadFactor3
+blockwiseConsensusModulesfunctionfunctionWGCNAmultiExpr	checkMissingDataTRUE	blocksNULL	maxBlockSize5000	randomSeed12345	individualTOMInfoNULL	useIndivTOMSubsetNULL	corType"pearson"	maxPOutliers1	quickCor0	pearsonFallback"individual"	cosineCorrelationFALSE	power6	networkType"unsigned"	checkPowerTRUE	TOMType"unsigned"	TOMDenom"min"	saveIndividualTOMsTRUE	individualTOMFileNames"individualTOM-Set%s-Block%b.RData"	networkCalibrationc("single quantile", "full quantile", "none")	calibrationQuantile0.95	sampleForCalibrationTRUE	sampleForCalibrationFactor1000	getNetworkCalibrationSamplesFALSE	consensusQuantile0	useMeanFALSE	setWeightsNULL	saveConsensusTOMsFALSE	consensusTOMFileNames"consensusTOM-block.%b.RData"	useDiskCacheTRUE	chunkSizeNULL	cacheBase".blockConsModsCache"	consensusTOMInfoNULL	deepSplit2	detectCutHeight0.995	minModuleSize20	checkMinModuleSizeTRUE	maxCoreScatterNULL	minGapNULL	maxAbsCoreScatterNULL	minAbsGapNULL	minSplitHeightNULL	minAbsSplitHeightNULL	useBranchEigennodeDissimFALSE	minBranchEigennodeDissim	stabilityLabelsNULL	minStabilityDissimNULL	pamStageTRUE	pamRespectsDendroTRUE	reassignThresholdPS1e-04	trimmingConsensusQuantile	minCoreKME0.5	minCoreKMESizeminModuleSize/3	minKMEtoStay0.2	imputeTRUE	trapErrorsFALSE	equalizeQuantilesForModuleMergingFALSE	quantileSummaryForModuleMerging"mean"	mergeCutHeight0.15	mergeConsensusQuantile	numericLabelsFALSE	nThreads0	verbose2	indent0	...
+blockwiseIndividualTOMsfunctionfunctionWGCNAmultiExpr	checkMissingDataTRUE	blocksNULL	maxBlockSize5000	randomSeed12345	corType"pearson"	maxPOutliers1	quickCor0	pearsonFallback"individual"	cosineCorrelationFALSE	power6	networkType"unsigned"	checkPowerTRUE	TOMType"unsigned"	TOMDenom"min"	saveTOMsTRUE	individualTOMFileNames"individualTOM-Set%s-Block%b.RData"	nThreads0	verbose2	indent0
+blockwiseModulesfunctionfunctionWGCNAdatExpr	checkMissingDataTRUE	blocksNULL	maxBlockSize5000	randomSeed12345	loadTOMFALSE	corType"pearson"	maxPOutliers1	quickCor0	pearsonFallback"individual"	cosineCorrelationFALSE	power6	networkType"unsigned"	TOMType"signed"	TOMDenom"min"	getTOMsNULL	saveTOMsFALSE	saveTOMFileBase"blockwiseTOM"	deepSplit2	detectCutHeight0.995	minModuleSizemin(20, ncol(datExpr)/2)	maxCoreScatterNULL	minGapNULL	maxAbsCoreScatterNULL	minAbsGapNULL	minSplitHeightNULL	minAbsSplitHeightNULL	useBranchEigennodeDissimFALSE	minBranchEigennodeDissim	pamStageTRUE	pamRespectsDendroTRUE	reassignThreshold1e-06	minCoreKME0.5	minCoreKMESizeminModuleSize/3	minKMEtoStay0.3	mergeCutHeight0.15	imputeTRUE	trapErrorsFALSE	numericLabelsFALSE	nThreads0	verbose0	indent0	...
+blueWhiteRedfunctionfunctionWGCNAn	gamma1
+branchEigengeneDissimfunctionfunctionWGCNAexpr	branch1	branch2	corFnc	corOptionslist(use = "p")	signedTRUE	...
+branchSplitfunctionfunctionWGCNAexpr	branch1	branch2	discardProp0.05	minCentralProp0.75	nConsideredPCs3	signedFALSE	getDetailsTRUE	...
+branchSplit.dissimfunctionfunctionWGCNAdissimMat	branch1	branch2	upperP	minNumberInSplit5	getDetailsFALSE	...
+branchSplitFromStabilityLabelsfunctionfunctionWGCNAbranch1	branch2	stabilityLabels	ignoreLabels0	...
+checkAdjMatfunctionfunctionWGCNAadjMat	min0	max1
+checkSetsfunctionfunctionWGCNAdata	checkStructureFALSE	useSetsNULL
+checkSimilarityfunctionfunctionWGCNAsimilarity	min-1	max1
+chooseOneHubInEachModulefunctionfunctionWGCNAdatExpr	colorh	numGenes100	omitColors"grey"	power2	type"signed"	...
+chooseTopHubInEachModulefunctionfunctionWGCNAdatExpr	colorh	omitColors"grey"	power2	type"signed"	...
+clusterCoeffunctionfunctionWGCNAadjMat
+coClusteringfunctionfunctionWGCNAclusters.ref	clusters.test	tupletSize2	unassignedLabel0
+coClustering.permutationTestfunctionfunctionWGCNAclusters.ref	clusters.test	tupletSize2	nPermutations100	unassignedLabel0	randomSeed12345	verbose0	indent0
+collapseRowsfunctionfunctionWGCNAdatET	rowGroup	rowID	method"MaxMean"	connectivityBasedCollapsingFALSE	methodFunctionNULL	connectivityPower1	selectFewestMissingTRUE	thresholdCombineNA
+collapseRowsUsingKMEfunctionfunctionWGCNAMM	Gin	PinNULL	kMEcols1:dim(MM)[2]
+collectGarbagefunctionfunctionWGCNANO_ARGS
+colQuantileCfunctionfunctionWGCNAdata	p
+conformityBasedNetworkConceptsfunctionfunctionWGCNAadj	GSNULL
+conformityDecompositionfunctionfunctionWGCNAadj	ClNULL
+consensusDissTOMandTreefunctionfunctionWGCNAmultiExpr	softPower	TOMNULL
+consensusKMEfunctionfunctionWGCNAmultiExpr	moduleLabels	multiEigengenesNULL	consensusQuantile0	signedTRUE	useModulesNULL	metaAnalysisWeightsNULL	corAndPvalueFnc	corOptionslist()	corComponent"cor"	getQvaluesFALSE	useRankPvalueTRUE	rankPvalueOptionslist(calculateQvalue = getQvalues, pValueMethod = "scale")	setNamesNULL	excludeGreyTRUE	greyLabelifelse(is.numeric(moduleLabels), 0, "grey")
+consensusMEDissimilarityfunctionfunctionWGCNAMEs	useAbsFALSE	useSetsNULL	method"consensus"
+consensusOrderMEsfunctionfunctionWGCNAMEs	useAbsFALSE	useSetsNULL	greyLastTRUE	greyNamepaste(moduleColor.getMEprefix(), "grey", sep = "")	method"consensus"
+consensusProjectiveKMeansfunctionfunctionWGCNAmultiExpr	preferredSize5000	nCentersNULL	sizePenaltyPower4	networkType"unsigned"	randomSeed54321	checkDataTRUE	useMean(length(multiExpr) > 3)	maxIterations1000	verbose0	indent0
+consensusTOMfunctionfunctionWGCNAmultiExpr	checkMissingDataTRUE	blocksNULL	maxBlockSize5000	randomSeed12345	corType"pearson"	maxPOutliers1	quickCor0	pearsonFallback"individual"	cosineCorrelationFALSE	power6	networkType"unsigned"	checkPowerTRUE	TOMType"unsigned"	TOMDenom"min"	saveIndividualTOMsTRUE	individualTOMFileNames"individualTOM-Set%s-Block%b.RData"	individualTOMInfoNULL	useIndivTOMSubsetNULL	useBlocksNULL	networkCalibrationc("single quantile", "full quantile", "none")	saveCalibratedIndividualTOMsFALSE	calibratedIndividualTOMFilePattern"calibratedIndividualTOM-Set%s-Block%b.RData"	calibrationQuantile0.95	sampleForCalibrationTRUE	sampleForCalibrationFactor1000	getNetworkCalibrationSamplesFALSE	consensusQuantile0	useMeanFALSE	setWeightsNULL	saveConsensusTOMsTRUE	consensusTOMFileNames"consensusTOM-Block%b.RData"	returnTOMsFALSE	useDiskCacheTRUE	chunkSizeNULL	cacheDir"."	cacheBase".blockConsModsCache"	nThreads1	verbose1	indent0
+corfunctionfunctionWGCNAx	yNULL	use"all.obs"	methodc("pearson", "kendall", "spearman")	quick0	cosineFALSE	cosineX	cosineY	dropFALSE	nThreads0	verbose0	indent0
+cor.nafunctionfunctionWGCNAx
+cor1functionfunctionWGCNAx	use"all.obs"	verbose0	indent0
+corAndPvaluefunctionfunctionWGCNAx	yNULL	use"pairwise.complete.obs"	alternativec("two.sided", "less", "greater")	...
+corFastfunctionfunctionWGCNAx	yNULL	use"all.obs"	quick0	nThreads0	verbose0	indent0
+corPredictionSuccessfunctionfunctionWGCNAcorPrediction	corTestSet	topNumber100
+corPvalueFisherfunctionfunctionWGCNAcor	nSamples	twoSidedTRUE
+corPvalueStudentfunctionfunctionWGCNAcor	nSamples
+correlationPreservationfunctionfunctionWGCNAmultiME	setLabels	excludeGreyTRUE	greyLabel"grey"
+coxRegressionResidualsfunctionfunctionWGCNAtime	event	datCovariatesNULL
+cutreeStaticfunctionfunctionWGCNAdendro	cutHeight0.9	minSize50
+cutreeStaticColorfunctionfunctionWGCNAdendro	cutHeight0.9	minSize50
+disableWGCNAThreadsfunctionfunctionWGCNANO_ARGS
+displayColorsfunctionfunctionWGCNAcolorsNULL
+dynamicMergeCutfunctionfunctionWGCNAn	mergeCor0.9	Zquantile2.35
+enableWGCNAThreadsfunctionfunctionWGCNAnThreadsNULL
+exportNetworkToCytoscapefunctionfunctionWGCNAadjMat	edgeFileNULL	nodeFileNULL	weightedTRUE	threshold0.5	nodeNamesNULL	altNodeNamesNULL	nodeAttrNULL	includeColNamesTRUE
+exportNetworkToVisANTfunctionfunctionWGCNAadjMat	fileNULL	weightedTRUE	threshold0.5	maxNConnectionsNULL	probeToGeneNULL
+fixDataStructurefunctionfunctionWGCNAdata	verbose0	indent0
+formatLabelsfunctionfunctionWGCNAlabels	maxCharPerLine14	split" "	fixedTRUE	newsplit	keepSplitAtEOLTRUE
+fundamentalNetworkConceptsfunctionfunctionWGCNAadj	GSNULL
+GOenrichmentAnalysisfunctionfunctionWGCNAlabels	entrezCodes	yeastORFsNULL	organism"human"	ontologiesc("BP", "CC", "MF")	evidence"all"	includeOffspringTRUE	backgroundType"givenInGO"	removeDuplicatesTRUE	leaveOutLabelNULL	nBestP10	pCutNULL	nBiggest0	getTermDetailsTRUE	verbose2	indent0
+goodGenesfunctionfunctionWGCNAdatExpr	useSamplesNULL	useGenesNULL	minFraction1/2	minNSamples	minNGenes	verbose1	indent0
+goodGenesMSfunctionfunctionWGCNAmultiExpr	useSamplesNULL	useGenesNULL	minFraction1/2	minNSamples	minNGenes	verbose1	indent0
+goodSamplesfunctionfunctionWGCNAdatExpr	useSamplesNULL	useGenesNULL	minFraction1/2	minNSamples	minNGenes	verbose1	indent0
+goodSamplesGenesfunctionfunctionWGCNAdatExpr	minFraction1/2	minNSamples	minNGenes	verbose1	indent0
+goodSamplesGenesMSfunctionfunctionWGCNAmultiExpr	minFraction1/2	minNSamples	minNGenes	verbose2	indent0
+goodSamplesMSfunctionfunctionWGCNAmultiExpr	useSamplesNULL	useGenesNULL	minFraction1/2	minNSamples	minNGenes	verbose1	indent0
+greenBlackRedfunctionfunctionWGCNAn	gamma1
+greenWhiteRedfunctionfunctionWGCNAn	gamma1	warnTRUE
+GTOMdistfunctionfunctionWGCNAadjMat	degree1
+hubGeneSignificancefunctionfunctionWGCNAdatKME	GS
+initProgIndfunctionfunctionWGCNAleadStr".."	trailStr""	quiet!interactive()
+intramodularConnectivityfunctionfunctionWGCNAadjMat	colors	scaleByMaxFALSE
+intramodularConnectivity.fromExprfunctionfunctionWGCNAdatExpr	colors	corFnc"cor"	corOptions"use = 'p'"	distFnc"dist"	distOptions"method = 'euclidean'"	networkType"unsigned"	powerif (networkType == "distance") 1 else 6	scaleByMaxFALSE	ignoreColorsif (is.numeric(colors)) 0 else "grey"	getWholeNetworkConnectivityTRUE
+isMultiDatafunctionfunctionWGCNAx	strictTRUE
+keepCommonProbesfunctionfunctionWGCNAmultiExpr	orderBy1
+kMEcomparisonScatterplotfunctionfunctionWGCNAdatExpr1	datExpr2	colorh	inANULL	inBNULL	MEsANULL	MEsBNULL	nameA"A"	nameB"B"	plotAllFALSE	noGreyTRUE	maxPlot1000	pch19	fileNameif (plotAll) paste("kME_correlations_between_", nameA, "_and_", 	fileName    nameB, "_all.pdf", sep = "") else paste("kME_correlations_between_", 	fileName    nameA, "_and_", nameB, "_inMod.pdf", sep = "")	...
+labeledBarplotfunctionfunctionWGCNAMatrix	labels	colorLabelsFALSE	coloredTRUE	setStdMarginsTRUE	stdErrorsNULL	cex.labNULL	xLabelsAngle45	...
+labeledHeatmapfunctionfunctionWGCNAMatrix	xLabels	yLabelsNULL	xSymbolsNULL	ySymbolsNULL	colorLabelsNULL	xColorLabelsFALSE	yColorLabelsFALSE	checkColorsValidTRUE	invertColorsFALSE	setStdMarginsTRUE	xLabelsPosition"bottom"	xLabelsAngle45	xLabelsAdj1	xColorWidth0.05	yColorWidth0.05	colorsNULL	naColor"grey"	textMatrixNULL	cex.textNULL	cex.labNULL	cex.lab.x	cex.lab.y	colors.lab.x1	colors.lab.y1	plotLegendTRUE	...
+labeledHeatmap.multiPagefunctionfunctionWGCNAMatrix	xLabels	yLabelsNULL	xSymbolsNULL	ySymbolsNULL	textMatrixNULL	rowsPerPageNULL	maxRowsPerPage20	colsPerPageNULL	maxColsPerPage10	addPageNumberToMainTRUE	zlimNULL	signedTRUE	main""	...
+labelPointsfunctionfunctionWGCNAx	y	labels	cex0.7	offs0.01	xpdTRUE	jiggle0	protectEdgesTRUE	...
+labels2colorsfunctionfunctionWGCNAlabels	zeroIsGreyTRUE	colorSeqNULL	naColor"grey"	commonColorCodeTRUE
+length.nafunctionfunctionWGCNAx	...
+list2multiDatafunctionfunctionWGCNAdata
+log.nafunctionfunctionWGCNAx	...
+lowerTri2matrixfunctionfunctionWGCNAx	diag1
+matchLabelsfunctionfunctionWGCNAsource	reference	pThreshold0.05	na.rmTRUE	ignoreLabelsif (is.numeric(reference)) 0 else "grey"	extraLabelsif (is.numeric(reference)) c(1:1000) else standardColors()
+matrixToNetworkfunctionfunctionWGCNAmat	symmetrizeMethodc("average", "min", "max")	signedTRUE	minNULL	maxNULL	power12	diagEntry1
+mean.nafunctionfunctionWGCNAx	...
+mergeCloseModulesfunctionfunctionWGCNAexprData	colors	MEsNULL	useSetsNULL	imputeTRUE	checkDataFormatTRUE	unassdColorifelse(is.numeric(colors), 0, "grey")	corFnc	corOptionslist(use = "p")	useAbsFALSE	equalizeQuantilesFALSE	quantileSummary"mean"	consensusQuantile0	cutHeight0.2	iterateTRUE	relabelFALSE	colorSeqNULL	getNewMEsTRUE	getNewUnassdMETRUE	trapErrorsFALSE	verbose1	indent0
+metaAnalysisfunctionfunctionWGCNAmultiExpr	multiTrait	binaryNULL	metaAnalysisWeightsNULL	corFnc	corOptionslist(use = "p")	getQvaluesFALSE	getAreaUnderROCFALSE	useRankPvalueTRUE	rankPvalueOptionslist()	setNamesNULL	kruskalTestFALSE	var.equalFALSE	metaKruskal	na.action"na.exclude"
+metaZfunctionfunctionfunctionWGCNAdatZ	columnweightsNULL
+moduleColor.getMEprefixfunctionfunctionWGCNANO_ARGS
+moduleEigengenesfunctionfunctionWGCNAexpr	colors	imputeTRUE	nPC1	align"along average"	excludeGreyFALSE	greyifelse(is.numeric(colors), 0, "grey")	subHubsTRUE	trapErrorsFALSE	returnValidOnly	softPower6	scaleTRUE	verbose0	indent0
+moduleMergeUsingKMEfunctionfunctionWGCNAdatExpr	colorh	MENULL	threshPercent50	mergePercent25	reassignModulesTRUE	convertGreyTRUE	omitColors"grey"	reassignScale1	threshNumberNULL
+moduleNumberfunctionfunctionWGCNAdendro	cutHeight0.9	minSize50
+modulePreservationfunctionfunctionWGCNAmultiData	multiColor	dataIsExprTRUE	networkType"unsigned"	corFnc"cor"	corOptions"use = 'p'"	referenceNetworks1	testNetworksNULL	nPermutations100	includekMEallInSummaryFALSE	restrictSummaryForGeneralNetworksTRUE	calculateQvalueFALSE	randomSeed12345	maxGoldModuleSize1000	maxModuleSize1000	quickCor1	ccTupletSize2	calculateCor.kIMallFALSE	calculateClusterCoeffFALSE	useInterpolationFALSE	checkDataTRUE	greyNameNULL	savePermutedStatisticsTRUE	loadPermutedStatisticsFALSE	permutedStatisticsFileif (useInterpolation) "permutedStats-intrModules.RData" else "permutedStats-actualModules.RData"	plotInterpolationTRUE	interpolationPlotFile"modulePreservationInterpolationPlots.pdf"	discardInvalidOutputTRUE	parallelCalculationFALSE	verbose1	indent0
+mtd.applyfunctionfunctionWGCNAmultiData	FUN	...	mdaExistingResultsNULL	mdaUpdateIndexNULL	mdaCopyNonDataFALSE	mdaSimplifyFALSE	returnListFALSE	mdaVerbose0	mdaIndent0
+mtd.applyToSubsetfunctionfunctionWGCNAmultiData	FUN	...	mdaRowIndexNULL	mdaColIndexNULL	mdaExistingResultsNULL	mdaUpdateIndexNULL	mdaCopyNonDataFALSE	mdaSimplifyFALSE	returnListFALSE	mdaVerbose0	mdaIndent0
+mtd.branchEigengeneDissimfunctionfunctionWGCNAmultiExpr	branch1	branch2	corFnc	corOptionslist(use = "p")	consensusQuantile0	signedTRUE	reproduceQuantileErrorFALSE	...
+mtd.colnamesfunctionfunctionWGCNAmultiData
+mtd.mapplyfunctionfunctionWGCNAFUN	...	MoreArgsNULL	mdma.argIsMultiDataNULL	mdmaExistingResultsNULL	mdmaUpdateIndexNULL	mdmaSimplifyFALSE	returnListFALSE	mdma.doCollectGarbageFALSE	mdmaVerbose0	mdmaIndent0
+mtd.rbindSelffunctionfunctionWGCNAmultiData
+mtd.setAttrfunctionfunctionWGCNAmultiData	attribute	valueList
+mtd.setColnamesfunctionfunctionWGCNAmultiData	colnames
+mtd.simplifyfunctionfunctionWGCNAmultiData
+mtd.subsetfunctionfunctionWGCNAmultiData	rowIndexNULL	colIndexNULL	permissiveFALSE	dropFALSE
+multiDatafunctionfunctionWGCNA...
+multiData.eigengeneSignificancefunctionfunctionWGCNAmultiData	multiTrait	moduleLabels	multiEigengenesNULL	useModulesNULL	corAndPvalueFnc	corOptionslist()	corComponent"cor"	getQvaluesFALSE	setNamesNULL	excludeGreyTRUE	greyLabelifelse(is.numeric(moduleLabels), 0, "grey")
+multiData2listfunctionfunctionWGCNAmultiData
+multiIntersectfunctionfunctionWGCNAsetList
+multiSetMEsfunctionfunctionWGCNAexprData	colors	universalColorsNULL	useSetsNULL	useGenesNULL	imputeTRUE	nPC1	align"along average"	excludeGreyFALSE	greyifelse(is.null(universalColors), ifelse(is.numeric(colors), 0, 	grey    "grey"), ifelse(is.numeric(universalColors), 0, "grey"))	subHubsTRUE	trapErrorsFALSE	returnValidOnly	softPower6	verbose1	indent0
+multiUnionfunctionfunctionWGCNAsetList
+mutualInfoAdjacencyfunctionfunctionWGCNAdatE	discretizeColumnsTRUE	entropyEstimationMethod"MM"	numberBinsNULL
+nearestCentroidPredictorfunctionfunctionWGCNAx	y	xtestNULL	featureSignificanceNULL	assocFnc"cor"	assocOptions"use = 'p'"	assocCut.hiNULL	assocCut.loNULL	nFeatures.hi10	nFeatures.lo10	weighFeaturesByAssociation0	scaleFeatureMeanTRUE	scaleFeatureVarTRUE	centroidMethodc("mean", "eigensample")	simFnc"cor"	simOptions"use = 'p'"	useQuantileNULL	sampleWeightsNULL	weighSimByPrediction0	CVfold0	returnFactorFALSE	randomSeed12345	verbose2	indent0
+nearestNeighborConnectivityfunctionfunctionWGCNAdatExpr	nNeighbors50	power6	type"unsigned"	corFnc"cor"	corOptions"use = 'p'"	blockSize1000	sampleLinksNULL	nLinks5000	setSeed38457	verbose1	indent0
+nearestNeighborConnectivityMSfunctionfunctionWGCNAmultiExpr	nNeighbors50	power6	type"unsigned"	corFnc"cor"	corOptions"use = 'p'"	blockSize1000	sampleLinksNULL	nLinks5000	setSeed36492	verbose1	indent0
+networkConceptsfunctionfunctionWGCNAdatExpr	power1	traitNULL	networkType"unsigned"
+networkScreeningfunctionfunctionWGCNAy	datME	datExpr	corFnc"cor"	corOptions"use = 'p'"	oddPower3	blockSize1000	minimumSampleSize	addMEyTRUE	removeDiagFALSE	weightESy0.5	getQValuesTRUE
+networkScreeningGSfunctionfunctionWGCNAdatExpr	datME	GS	oddPower3	blockSize1000	minimumSampleSize	addGSTRUE
+normalizeLabelsfunctionfunctionWGCNAlabels	keepZeroTRUE
+nPresentfunctionfunctionWGCNAx
+nSetsfunctionfunctionWGCNAmultiData	...
+numbers2colorsfunctionfunctionWGCNAx	signedNULL	centered	limNULL	commonLimFALSE	colorsif (signed) blueWhiteRed(100) else blueWhiteRed(100)[51:100]	naColor"grey"
+order.nafunctionfunctionWGCNAx	na.lastTRUE
+orderBranchesUsingHubGenesfunctionfunctionWGCNAhierTOM	datExprNULL	colorhNULL	type"signed"	adjNULL	iterNULL	useReflectionsFALSE	allowNonoptimalSwapsFALSE
+orderMEsfunctionfunctionWGCNAMEs	greyLastTRUE	greyNamepaste(moduleColor.getMEprefix(), "grey", sep = "")	orderBy1	orderNULL	useSetsNULL	verbose0	indent0
+overlapTablefunctionfunctionWGCNAlabels1	labels2	na.rmTRUE	ignoreNULL	levels1NULL	levels2NULL
+overlapTableUsingKMEfunctionfunctionWGCNAdat1	dat2	colorh1	colorh2	MEs1NULL	MEs2NULL	name1"MM1"	name2"MM2"	cutoffMethod"assigned"	cutoff0.5	omitGreyTRUE	datIsExpressionTRUE
+pickHardThresholdfunctionfunctionWGCNAdata	dataIsExprTRUE	RsquaredCut0.85	cutVectorseq(0.1, 0.9, by = 0.05)	moreNetworkConceptsFALSE	removeFirstFALSE	nBreaks10	corFnc"cor"	corOptions"use = 'p'"
+pickHardThreshold.fromSimilarityfunctionfunctionWGCNAsimilarity	RsquaredCut0.85	cutVectorseq(0.1, 0.9, by = 0.05)	moreNetworkConceptsFALSE	removeFirstFALSE	nBreaks10
+pickSoftThresholdfunctionfunctionWGCNAdata	dataIsExprTRUE	RsquaredCut0.85	powerVectorc(seq(1, 10, by = 1), seq(12, 20, by = 2))	removeFirstFALSE	nBreaks10	blockSizeNULL	corFnc	corOptionslist(use = "p")	networkType"unsigned"	moreNetworkConceptsFALSE	verbose0	indent0
+pickSoftThreshold.fromSimilarityfunctionfunctionWGCNAsimilarity	RsquaredCut0.85	powerVectorc(seq(1, 10, by = 1), seq(12, 20, by = 2))	removeFirstFALSE	nBreaks10	blockSize1000	networkType"unsigned"	moreNetworkConceptsFALSE	verbose0	indent0
+plotClusterTreeSamplesfunctionfunctionWGCNAdatExpr	yNULL	traitLabelsNULL	yLabelsNULL	mainif (is.null(y)) "Sample dendrogram" else "Sample dendrogram and trait indicator"	setLayoutTRUE	autoColorHeightTRUE	colorHeight0.3	dendroLabelsNULL	addGuideFALSE	guideAllTRUE	guideCountNULL	guideHang0.2	cex.traitLabels0.8	cex.dendroLabels0.9	marAllc(1, 5, 3, 1)	saveMarTRUE	abHeightNULL	abCol"red"	...
+plotColorUnderTreefunctionfunctionWGCNAdendro	colors	rowLabelsNULL	rowWidthsNULL	rowTextNULL	rowTextAlignmentc("left", "center", "right")	rowTextIgnoreNULL	textPositionsNULL	addTextGuideTRUE	cex.rowLabels1	cex.rowText0.8	...
+plotCorfunctionfunctionWGCNAx	newFALSE	nrgcols50	labelsFALSE	labcols1	title""	...
+plotDendroAndColorsfunctionfunctionWGCNAdendro	colors	groupLabelsNULL	rowTextNULL	rowTextAlignmentc("left", "center", "right")	rowTextIgnoreNULL	textPositionsNULL	setLayoutTRUE	autoColorHeightTRUE	colorHeight0.2	rowWidthsNULL	dendroLabelsNULL	addGuideFALSE	guideAllFALSE	guideCount50	guideHang0.2	addTextGuideFALSE	cex.colorLabels0.8	cex.dendroLabels0.9	cex.rowText0.8	marAllc(1, 5, 3, 1)	saveMarTRUE	abHeightNULL	abCol"red"	...
+plotEigengeneNetworksfunctionfunctionWGCNAmultiME	setLabels	letterSubPlotsFALSE	LettersNULL	excludeGreyTRUE	greyLabel"grey"	plotDendrogramsTRUE	plotHeatmapsTRUE	setMarginsTRUE	marDendroNULL	marHeatmapNULL	colorLabelsTRUE	signedTRUE	heatmapColorsNULL	plotAdjacencyTRUE	printAdjacencyFALSE	cex.adjacency0.9	coloredBarplotTRUE	barplotMeansTRUE	barplotErrorsFALSE	plotPreservation"standard"	zlimPreservationc(0, 1)	printPreservationFALSE	cex.preservation0.9	...
+plotMatfunctionfunctionWGCNAx	nrgcols50	rlabelsFALSE	clabelsFALSE	rcols1	ccols1	title""	...
+plotMEpairsfunctionfunctionWGCNAdatME	yNULL	main"Relationship between module eigengenes"	clusterMEsTRUE	...
+plotModuleSignificancefunctionfunctionWGCNAgeneSignificance	colors	boxplotFALSE	main"Gene significance across modules,"	ylab"Gene Significance"	...
+plotNetworkHeatmapfunctionfunctionWGCNAdatExpr	plotGenes	useTOMTRUE	power6	networkType"unsigned"	main"Heatmap of the network"
+plotOrderedColorsfunctionfunctionWGCNAorder	colors	rowLabelsNULL	rowWidthsNULL	rowTextNULL	rowTextAlignmentc("left", "center", "right")	rowTextIgnoreNULL	textPositionsNULL	addTextGuideTRUE	cex.rowLabels1	cex.rowText0.8	startAt0	...
+pmeanfunctionfunctionWGCNA...
+pmedianfunctionfunctionWGCNA...
+populationMeansInAdmixturefunctionfunctionWGCNAdatProportions	datE.Admixture	scaleProportionsTo1TRUE	scaleProportionsInCelltypeTRUE	setMissingProportionsToZeroFALSE
+pquantilefunctionfunctionWGCNAprob	...
+prepCommafunctionfunctionWGCNAs
+prependZerosfunctionfunctionWGCNAx	widthmax(nchar(x))
+preservationNetworkConnectivityfunctionfunctionWGCNAmultiExpr	useSetsNULL	useGenesNULL	corFnc"cor"	corOptions"use='p'"	networkType"unsigned"	power6	sampleLinksNULL	nLinks5000	blockSize1000	setSeed12345	weightPower2	verbose2	indent0
+prod.nafunctionfunctionWGCNAx	...
+projectiveKMeansfunctionfunctionWGCNAdatExpr	preferredSize5000	nCentersas.integer(min(ncol(datExpr)/20, preferredSize^2/ncol(datExpr)))	sizePenaltyPower4	networkType"unsigned"	randomSeed54321	checkDataTRUE	maxIterations1000	verbose0	indent0
+proportionsInAdmixturefunctionfunctionWGCNAMarkerMeansPure	datE.Admixture	calculateConditionNumberFALSE	coefToProportionTRUE
+propVarExplainedfunctionfunctionWGCNAdatExpr	colors	MEs	corFnc"cor"	corOptions"use = 'p'"
+quantile.nafunctionfunctionWGCNAx	...
+qvaluefunctionfunctionWGCNAp	lambdaseq(0, 0.9, 0.05)	pi0.method"smoother"	fdr.levelNULL	robustFALSE	smooth.df3	smooth.log.pi0FALSE
+qvalue.restrictedfunctionfunctionWGCNAp	trapErrorsTRUE	...
+randIndexfunctionfunctionWGCNAtab	adjustTRUE
+rankPvaluefunctionfunctionWGCNAdatS	columnweightsNULL	na.last"keep"	ties.method"average"	calculateQvalueTRUE	pValueMethod"all"
+recutBlockwiseTreesfunctionfunctionWGCNAdatExpr	goodSamples	goodGenes	blocks	TOMFiles	dendrograms	corType"pearson"	networkType"unsigned"	deepSplit2	detectCutHeight0.995	minModuleSizemin(20, ncol(datExpr)/2)	maxCoreScatterNULL	minGapNULL	maxAbsCoreScatterNULL	minAbsGapNULL	minSplitHeightNULL	minAbsSplitHeightNULL	useBranchEigennodeDissimFALSE	minBranchEigennodeDissim	pamStageTRUE	pamRespectsDendroTRUE	minCoreKME0.5	minCoreKMESizeminModuleSize/3	minKMEtoStay0.3	reassignThreshold1e-06	mergeCutHeight0.15	imputeTRUE	trapErrorsFALSE	numericLabelsFALSE	verbose0	indent0	...
+recutConsensusTreesfunctionfunctionWGCNAmultiExpr	goodSamples	goodGenes	blocks	TOMFiles	dendrograms	corType"pearson"	networkType"unsigned"	deepSplit2	detectCutHeight0.995	minModuleSize20	checkMinModuleSizeTRUE	maxCoreScatterNULL	minGapNULL	maxAbsCoreScatterNULL	minAbsGapNULL	minSplitHeightNULL	minAbsSplitHeightNULL	useBranchEigennodeDissimFALSE	minBranchEigennodeDissim	pamStageTRUE	pamRespectsDendroTRUE	trimmingConsensusQuantile0	minCoreKME0.5	minCoreKMESizeminModuleSize/3	minKMEtoStay0.2	reassignThresholdPS1e-04	mergeCutHeight0.15	mergeConsensusQuantile	imputeTRUE	trapErrorsFALSE	numericLabelsFALSE	verbose2	indent0
+redWhiteGreenfunctionfunctionWGCNAn	gamma1
+reflectBranchfunctionfunctionWGCNAhierTOM	g1	g2	bothFALSE
+relativeCorPredictionSuccessfunctionfunctionWGCNAcorPredictionNew	corPredictionStandard	corTestSet	topNumber100
+removeGreyMEfunctionfunctionWGCNAMEs	greyMENamepaste(moduleColor.getMEprefix(), "grey", sep = "")
+removePrincipalComponentsfunctionfunctionWGCNAx	n
+returnGeneSetsAsListfunctionfunctionWGCNAfnInNULL	catNmIn	useBrainListsFALSE	useBloodAtlasesFALSE	useStemCellListsFALSE	useBrainRegionMarkersFALSE	useImmunePathwayListsFALSE	geneSubsetNULL
+rgcolors.funcfunctionfunctionWGCNAn50
+rowQuantileCfunctionfunctionWGCNAdata	p
+scale.nafunctionfunctionWGCNAx	centerTRUE	scaleTRUE
+scaleFreeFitIndexfunctionfunctionWGCNAk	nBreaks10	removeFirstFALSE
+scaleFreePlotfunctionfunctionWGCNAconnectivity	nBreaks10	truncatedFALSE	removeFirstFALSE	main""	...
+selectBranchfunctionfunctionWGCNAhierTOM	g1	g2
+setCorrelationPreservationfunctionfunctionWGCNAmultiME	setLabels	excludeGreyTRUE	greyLabel"grey"	method"absolute"
+shortenStringsfunctionfunctionWGCNAstrings	maxLength25	minLength10	split" "	fixedTRUE	ellipsis"..."	countEllipsisInLengthFALSE
+sigmoidAdjacencyFunctionfunctionfunctionWGCNAss	mu0.8	alpha20
+signedKMEfunctionfunctionWGCNAdatExpr	datME	outputColumnName"kME"	corFnc"cor"	corOptions"use = 'p'"
+signumAdjacencyFunctionfunctionfunctionWGCNAcorMat	threshold
+simulateDatExprfunctionfunctionWGCNAeigengenes	nGenes	modProportions	minCor0.3	maxCor1	corPower1	signedFALSE	propNegativeCor0.3	geneMeansNULL	backgroundNoise0.1	leaveOutNULL	nSubmoduleLayers0	nScatteredModuleLayers0	averageNGenesInSubmodule10	averageExprInSubmodule0.2	submoduleSpacing2	verbose1	indent0
+simulateDatExpr5ModulesfunctionfunctionWGCNAnGenes2000	colorLabelsc("turquoise", "blue", "brown", "yellow", "green")	simulateProportionsc(0.1, 0.08, 0.06, 0.04, 0.02)	MEturquoise	MEblue	MEbrown	MEyellow	MEgreen	SDnoise1	backgroundCor0.3
+simulateEigengeneNetworkfunctionfunctionWGCNAcauseMat	anchorIndex	anchorVectors	noise1	verbose0	indent0
+simulateModulefunctionfunctionWGCNAME	nGenes	nNearGenes0	minCor0.3	maxCor1	corPower1	signedFALSE	propNegativeCor0.3	geneMeansNULL	verbose0	indent0
+simulateMultiExprfunctionfunctionWGCNAeigengenes	nGenes	modProportions	minCor0.5	maxCor1	corPower1	backgroundNoise0.1	leaveOutNULL	signedFALSE	propNegativeCor0.3	geneMeansNULL	nSubmoduleLayers0	nScatteredModuleLayers0	averageNGenesInSubmodule10	averageExprInSubmodule0.2	submoduleSpacing2	verbose1	indent0
+simulateSmallLayerfunctionfunctionWGCNAorder	nSamples	minCor0.3	maxCor0.5	corPower1	averageModuleSize	averageExpr	moduleSpacing	verbose4	indent0
+sizeGrWindowfunctionfunctionWGCNAwidth	height
+softConnectivityfunctionfunctionWGCNAdatExpr	corFnc"cor"	corOptions"use = 'p'"	type"unsigned"	powerif (type == "signed") 15 else 6	blockSize1500	minNSamplesNULL	verbose2	indent0
+softConnectivity.fromSimilarityfunctionfunctionWGCNAsimilarity	type"unsigned"	powerif (type == "signed") 15 else 6	blockSize1500	verbose2	indent0
+spastefunctionfunctionWGCNA...
+standardColorsfunctionfunctionWGCNAnNULL
+standardScreeningBinaryTraitfunctionfunctionWGCNAdatExpr	y	corFnc	corOptionslist(use = "p")	kruskalTestFALSE	qValuesFALSE	var.equalFALSE	na.action"na.exclude"	getAreaUnderROCTRUE
+standardScreeningCensoredTimefunctionfunctionWGCNAtime	event	datExpr	percentilesseq(from = 0.1, to = 0.9, by = 0.2)	dichotomizationResultsFALSE	qValuesTRUE	fastCalculationTRUE
+standardScreeningNumericTraitfunctionfunctionWGCNAdatExpr	yNumeric	corFnc	corOptionslist(use = "p")	alternativec("two.sided", "less", "greater")	qValuesTRUE	areaUnderROCTRUE
+stat.bwssfunctionfunctionWGCNAx	cl
+stat.diag.dafunctionfunctionWGCNAls	cll	ts	pool1
+stdErrfunctionfunctionWGCNAx
+stratifiedBarplotfunctionfunctionWGCNAexpAll	groups	split	subset	genesNA	scale"N"	graphTRUE	las12	cex11.5	...
+subsetTOMfunctionfunctionWGCNAdatExpr	subset	corFnc"cor"	corOptions"use = 'p'"	networkType"unsigned"	power6	verbose1	indent0
+sum.nafunctionfunctionWGCNAx	...
+swapTwoBranchesfunctionfunctionWGCNAhierTOM	g1	g2
+TOMdistfunctionfunctionWGCNAadjMat	TOMType"unsigned"	TOMDenom"min"	verbose1	indent0
+TOMplotfunctionfunctionWGCNAdissim	dendro	ColorsNULL	ColorsLeft	terrainColorsFALSE	setLayoutTRUE	...
+TOMsimilarityfunctionfunctionWGCNAadjMat	TOMType"unsigned"	TOMDenom"min"	verbose1	indent0
+TOMsimilarityFromExprfunctionfunctionWGCNAdatExpr	corType"pearson"	networkType"unsigned"	power6	TOMType"signed"	TOMDenom"min"	maxPOutliers1	quickCor0	pearsonFallback"individual"	cosineCorrelationFALSE	nThreads0	verbose1	indent0
+transposeBigDatafunctionfunctionWGCNAx	blocksize20000
+TrueTraitfunctionfunctionWGCNAdatX	y	datXtestNULL	corFnc"bicor"	corOptions"use = 'pairwise.complete.obs'"	LeaveOneOut.CVFALSE	skipMissingVariablesTRUE	addLinearModelFALSE
+unsignedAdjacencyfunctionfunctionWGCNAdatExpr	datExpr2NULL	power6	corFnc"cor"	corOptions"use = 'p'"
+updateProgIndfunctionfunctionWGCNAnewFrac	progInd	quiet!interactive()
+userListEnrichmentfunctionfunctionWGCNAgeneR	labelR	fnInNULL	catNmIn	nameOut"enrichment.csv"	useBrainListsFALSE	useBloodAtlasesFALSE	omitCategories"grey"	outputCorrectedPvaluesTRUE	useStemCellListsFALSE	outputGenesFALSE	minGenesInCategory1	useBrainRegionMarkersFALSE	useImmunePathwayListsFALSE	usePalazzoloWangFALSE
+var.nafunctionfunctionWGCNAx
+vectorizeMatrixfunctionfunctionWGCNAM	diagFALSE
+vectorTOMfunctionfunctionWGCNAdatExpr	vect	subtract1FALSE	blockSize2000	corFnc"cor"	corOptions"use = 'p'"	networkType"unsigned"	power6	verbose1	indent0
+verboseBarplotfunctionfunctionWGCNAx	g	main""	xlabNA	ylabNA	cex1	cex.axis1.5	cex.lab1.5	cex.main1.5	color"grey"	numberStandardErrors1	KruskalTestTRUE	AnovaTestFALSE	two.sidedTRUE	addCellCountsFALSE	horizFALSE	...
+verboseBoxplotfunctionfunctionWGCNAx	g	main""	xlabNA	ylabNA	cex1	cex.axis1.5	cex.lab1.5	cex.main1.5	notchTRUE	varwidthTRUE	...
+verboseIplotfunctionfunctionWGCNAx	y	xlimNA	ylimNA	nBinsX150	nBinsY150	ztransffunction(x) {	ztransf    x	ztransf}	gamma1	sampleNULL	corFnc"cor"	corOptions"use = 'p'"	main""	xlabNA	ylabNA	cex1	cex.axis1.5	cex.lab1.5	cex.main1.5	ablineFALSE	abline.color1	abline.lty1	corLabel	...
+verboseScatterplotfunctionfunctionWGCNAx	y	sampleNULL	corFnc"cor"	corOptions"use = 'p'"	main""	xlabNA	ylabNA	cex1	cex.axis1.5	cex.lab1.5	cex.main1.5	ablineFALSE	abline.color1	abline.lty1	corLabel	displayAsZero1e-05	col1	bg0	lmFnc	...
+votingLinearPredictorfunctionfunctionWGCNAx	y	xtestNULL	classifyFALSE	CVfold0	randomSeed12345	assocFnc"cor"	assocOptions"use = 'p'"	featureWeightPowersNULL	priorWeightsNULL	weighByPrediction0	nFeatures.hiNULL	nFeatures.loNULL	dropUnusedDimensionsTRUE	verbose2	indent0
+WGCNAnThreadsfunctionfunctionWGCNANO_ARGS

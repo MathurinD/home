@@ -1,0 +1,6 @@
+cutreeDynamicfunctionfunctiondynamicTreeCutdendro	cutHeightNULL	minClusterSize20	method"hybrid"	distMNULL	deepSplit(ifelse(method == "hybrid", 1, FALSE))	maxCoreScatterNULL	minGapNULL	maxAbsCoreScatterNULL	minAbsGapNULL	minSplitHeightNULL	minAbsSplitHeightNULL	externalBranchSplitFncNULL	minExternalSplitNULL	externalSplitOptionslist()	externalSplitFncNeedsDistanceNULL	assumeSimpleExternalSpecificationTRUE	pamStageTRUE	pamRespectsDendroTRUE	useMedoidsFALSE	maxDistToLabelNULL	maxPamDist	respectSmallClustersTRUE	verbose2	indent0
+cutreeDynamicTreefunctionfunctiondynamicTreeCutdendro	maxTreeHeight1	deepSplitTRUE	minModuleSize50
+cutreeHybridfunctionfunctiondynamicTreeCutdendro	distM	cutHeightNULL	minClusterSize20	deepSplit1	maxCoreScatterNULL	minGapNULL	maxAbsCoreScatterNULL	minAbsGapNULL	minSplitHeightNULL	minAbsSplitHeightNULL	externalBranchSplitFncNULL	minExternalSplitNULL	externalSplitOptionslist()	externalSplitFncNeedsDistanceNULL	assumeSimpleExternalSpecificationTRUE	pamStageTRUE	pamRespectsDendroTRUE	useMedoidsFALSE	maxPamDist	respectSmallClustersTRUE	verbose2	indent0
+indentSpacesfunctionfunctiondynamicTreeCutindent0
+merge2ClustersfunctionfunctiondynamicTreeCutlabels	mainClusterLabel	minorClusterLabel
+printFlushfunctionfunctiondynamicTreeCut...

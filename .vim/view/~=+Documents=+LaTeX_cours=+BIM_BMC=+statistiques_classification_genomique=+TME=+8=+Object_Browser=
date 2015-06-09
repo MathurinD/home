@@ -1,0 +1,179 @@
+let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
+argglobal
+nmap <buffer> <silent>  :call RBrowserDoubleClick()
+vnoremap <buffer> <silent>  r- :call g:RBrOpenCloseLs(0)
+nnoremap <buffer> <silent>  r- :call g:RBrOpenCloseLs(0)
+onoremap <buffer> <silent>  r- :call g:RBrOpenCloseLs(0)
+vnoremap <buffer> <silent>  r= :call g:RBrOpenCloseLs(1)
+nnoremap <buffer> <silent>  r= :call g:RBrOpenCloseLs(1)
+onoremap <buffer> <silent>  r= :call g:RBrOpenCloseLs(1)
+vnoremap <buffer> <silent>  ro :call RObjBrowser()
+nnoremap <buffer> <silent>  ro :call RObjBrowser()
+onoremap <buffer> <silent>  ro :call RObjBrowser()
+vnoremap <buffer> <silent>  rb :call RAction("plotsumm")
+nnoremap <buffer> <silent>  rb :call RAction("plotsumm")
+onoremap <buffer> <silent>  rb :call RAction("plotsumm")
+vnoremap <buffer> <silent>  rg :call RAction("plot")
+nnoremap <buffer> <silent>  rg :call RAction("plot")
+onoremap <buffer> <silent>  rg :call RAction("plot")
+vnoremap <buffer> <silent>  rs :call RAction("summary")
+nnoremap <buffer> <silent>  rs :call RAction("summary")
+onoremap <buffer> <silent>  rs :call RAction("summary")
+vnoremap <buffer> <silent>  rh :call RAction("help")
+nnoremap <buffer> <silent>  rh :call RAction("help")
+onoremap <buffer> <silent>  rh :call RAction("help")
+vnoremap <buffer> <silent>  re :call RAction("example")
+nnoremap <buffer> <silent>  re :call RAction("example")
+onoremap <buffer> <silent>  re :call RAction("example")
+vnoremap <buffer> <silent>  ra :call RAction("args")
+nnoremap <buffer> <silent>  ra :call RAction("args")
+onoremap <buffer> <silent>  ra :call RAction("args")
+vnoremap <buffer> <silent>  rt :call RAction("str")
+nnoremap <buffer> <silent>  rt :call RAction("str")
+onoremap <buffer> <silent>  rt :call RAction("str")
+vnoremap <buffer> <silent>  rn :call RAction("vim.names")
+nnoremap <buffer> <silent>  rn :call RAction("vim.names")
+onoremap <buffer> <silent>  rn :call RAction("vim.names")
+vnoremap <buffer> <silent>  rp :call RAction("print")
+nnoremap <buffer> <silent>  rp :call RAction("print")
+onoremap <buffer> <silent>  rp :call RAction("print")
+vnoremap <buffer> <silent>  rm :call RClearAll()
+nnoremap <buffer> <silent>  rm :call RClearAll()
+onoremap <buffer> <silent>  rm :call RClearAll()
+vnoremap <buffer> <silent>  rr :call RClearConsole()
+nnoremap <buffer> <silent>  rr :call RClearConsole()
+onoremap <buffer> <silent>  rr :call RClearConsole()
+vnoremap <buffer> <silent>  rl :call g:SendCmdToR("ls()")
+nnoremap <buffer> <silent>  rl :call g:SendCmdToR("ls()")
+onoremap <buffer> <silent>  rl :call g:SendCmdToR("ls()")
+let s:cpo_save=&cpo
+set cpo&vim
+nmap <buffer> <silent> <RightMouse> :call RBrowserRightClick()
+nmap <buffer> <silent> <2-LeftMouse> :call RBrowserDoubleClick()
+inoremap <buffer> <silent>  r- :call g:RBrOpenCloseLs(0)a
+inoremap <buffer> <silent>  r= :call g:RBrOpenCloseLs(1)a
+inoremap <buffer> <silent>  ro :call RObjBrowser()a
+inoremap <buffer> <silent>  rb :call RAction("plotsumm")a
+inoremap <buffer> <silent>  rg :call RAction("plot")a
+inoremap <buffer> <silent>  rs :call RAction("summary")a
+inoremap <buffer> <silent>  rh :call RAction("help")a
+inoremap <buffer> <silent>  re :call RAction("example")a
+inoremap <buffer> <silent>  ra :call RAction("args")a
+inoremap <buffer> <silent>  rt :call RAction("str")a
+inoremap <buffer> <silent>  rn :call RAction("vim.names")a
+inoremap <buffer> <silent>  rp :call RAction("print")a
+inoremap <buffer> <silent>  rm :call RClearAll()a
+inoremap <buffer> <silent>  rr :call RClearConsole()a
+inoremap <buffer> <silent>  rl :call g:SendCmdToR("ls()")a
+let &cpo=s:cpo_save
+unlet s:cpo_save
+setlocal keymap=
+setlocal noarabic
+setlocal autoindent
+setlocal balloonexpr=
+setlocal nobinary
+setlocal bufhidden=wipe
+setlocal buflisted
+setlocal buftype=nofile
+setlocal nocindent
+setlocal cinkeys=0{,0},0),:,0#,!^F,o,O,e
+setlocal cinoptions=
+setlocal cinwords=if,else,while,do,for,switch
+setlocal colorcolumn=
+setlocal comments=s1:/*,mb:*,ex:*/,://,b:#,:%,:XCOMM,n:>,fb:-
+setlocal commentstring=/*%s*/
+setlocal complete=.,w,b,u,t,i
+setlocal concealcursor=nvc
+setlocal conceallevel=2
+setlocal completefunc=
+setlocal nocopyindent
+setlocal cryptmethod=
+setlocal nocursorbind
+setlocal nocursorcolumn
+setlocal cursorline
+setlocal define=
+setlocal dictionary=
+setlocal nodiff
+setlocal equalprg=
+setlocal errorformat=
+setlocal expandtab
+if &filetype != 'rbrowser'
+setlocal filetype=rbrowser
+endif
+setlocal foldcolumn=0
+setlocal foldenable
+setlocal foldexpr=0
+setlocal foldignore=#
+setlocal foldlevel=20
+setlocal foldmarker={{{,}}}
+setlocal foldmethod=indent
+setlocal foldminlines=1
+setlocal foldnestmax=20
+setlocal foldtext=foldtext()
+setlocal formatexpr=
+setlocal formatoptions=tcq
+setlocal formatlistpat=^\\s*\\d\\+[\\]:.)}\\t\ ]\\s*
+setlocal grepprg=
+setlocal iminsert=2
+setlocal imsearch=2
+setlocal include=
+setlocal includeexpr=
+setlocal indentexpr=GetMyIndent()
+setlocal indentkeys=0{,0},:,0#,!^F,o,O,e
+setlocal noinfercase
+setlocal iskeyword=@,48-57,_,.
+setlocal keywordprg=
+setlocal linebreak
+setlocal nolisp
+setlocal nolist
+setlocal makeprg=
+setlocal matchpairs=(:),{:},[:]
+setlocal modeline
+setlocal nomodifiable
+setlocal nrformats=octal,hex
+setlocal number
+setlocal numberwidth=4
+setlocal omnifunc=
+setlocal path=
+setlocal nopreserveindent
+setlocal nopreviewwindow
+setlocal quoteescape=\\
+setlocal noreadonly
+setlocal norelativenumber
+setlocal norightleft
+setlocal rightleftcmd=search
+setlocal noscrollbind
+setlocal shiftwidth=8
+setlocal noshortname
+setlocal smartindent
+setlocal softtabstop=0
+setlocal nospell
+setlocal spellcapcheck=[.?!]\\_[\\])'\"\	\ ]\\+
+setlocal spellfile=
+setlocal spelllang=en
+setlocal statusline=
+setlocal suffixesadd=
+setlocal noswapfile
+setlocal synmaxcol=3000
+if &syntax != 'rbrowser'
+setlocal syntax=rbrowser
+endif
+setlocal tabstop=8
+setlocal tags=
+setlocal textwidth=0
+setlocal thesaurus=
+setlocal noundofile
+setlocal nowinfixheight
+setlocal winfixwidth
+setlocal nowrap
+setlocal wrapmargin=0
+let s:l = 1 - ((0 * winheight(0) + 16) / 33)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+1
+normal! 0
+lcd ~/Documents/LaTeX_cours/BIM_BMC/statistiques_classification_genomique/TME/8
+let &so = s:so_save | let &siso = s:siso_save
+doautoall SessionLoadPost
+" vim: set ft=vim :

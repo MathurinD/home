@@ -1,0 +1,87 @@
+AgEdgefunctionfunctionRgraphvizobject
+AgEdge<-functionfunctionRgraphvizobject	value
+AgNodefunctionfunctionRgraphvizobject
+AgNode<-functionfunctionRgraphvizobject	value
+agopenfunctionfunctionRgraphvizgraph	name	nodes	edges	kindNULL	layoutTRUE	layoutType"dot"	attrslist()	nodeAttrslist()	edgeAttrslist()	subGListlist()	edgeModeedgemode(graph)	recipEdgesc("combined", "distinct")
+agopenSimplefunctionfunctionRgraphvizgraph	name	kindNULL	edgeModeedgemode(graph)	subGListlist()	recipEdgesc("combined", "distinct")
+agraphfunctionfunctionRgraphvizobject
+agreadfunctionfunctionRgraphvizfilename	layoutType"dot"	layoutTRUE
+agwritefunctionfunctionRgraphvizgraph	filename
+arrowheadfunctionfunctionRgraphvizobject
+arrowsizefunctionfunctionRgraphvizobject
+arrowtailfunctionfunctionRgraphvizobject
+bezierPointsfunctionfunctionRgraphvizx
+bLinesfunctionfunctionRgraphvizx	...
+botLeftfunctionfunctionRgraphvizobject
+boundBoxfunctionfunctionRgraphvizobject
+buildEdgeListfunctionfunctionRgraphvizgraph	recipEdgesc("combined", "distinct")	edgeAttrslist()	subGListlist()	defAttrslist()
+buildNodeListfunctionfunctionRgraphvizgraph	nodeAttrslist()	subGListlist()	defAttrslist()
+checkAttrsfunctionfunctionRgraphvizattrs
+clusterDatafunctionfunctionRgraphvizself	cluster	attr
+clusterData<-functionfunctionRgraphvizself	cluster	attr	value
+colorfunctionfunctionRgraphvizobject
+cPointsfunctionfunctionRgraphvizobject
+drawAgNodefunctionfunctionRgraphviznode
+drawTxtLabelfunctionfunctionRgraphviztxtLabel	xLoc	yLoc	defaultFontsize
+edgeDatafunctionfunctionRgraphvizself	from	to	attr
+edgeData<-functionfunctionRgraphvizself	from	to	attr	value
+edgeDataDefaultsfunctionfunctionRgraphvizself	attr
+edgeDataDefaults<-functionfunctionRgraphvizself	attr	value
+edgemodefunctionfunctionRgraphvizobject
+edgeNamesfunctionfunctionRgraphvizobject	...
+epfunctionfunctionRgraphvizobject
+fillcolorfunctionfunctionRgraphvizobject
+fromfunctionfunctionRgraphvizobject
+getDefaultAttrsfunctionfunctionRgraphvizcurAttrslist()	layoutType"dot"
+getNodeCenterfunctionfunctionRgraphvizobject
+getNodeHeightfunctionfunctionRgraphvizobject
+getNodeLabelsfunctionfunctionRgraphvizobject
+getNodeLWfunctionfunctionRgraphvizobject
+getNodeNamesfunctionfunctionRgraphvizobject
+getNodeRWfunctionfunctionRgraphvizobject
+getNodeXYfunctionfunctionRgraphvizobject
+getPointsfunctionfunctionRgraphvizobject
+getSplinefunctionfunctionRgraphvizobject	pos
+getXfunctionfunctionRgraphvizobject
+getYfunctionfunctionRgraphvizobject
+graphDatafunctionfunctionRgraphvizself	attr
+graphData<-functionfunctionRgraphvizself	attr	value
+graphDataDefaultsfunctionfunctionRgraphvizself
+graphDataDefaults<-functionfunctionRgraphvizself	attr	value
+graphLayoutfunctionfunctionRgraphvizgraph	layoutTypegraph@layoutType
+graphvizCapabilitiesfunctionfunctionRgraphvizNO_ARGS
+graphvizVersionfunctionfunctionRgraphvizNO_ARGS
+headfunctionfunctionRgraphvizx	...
+labelColorfunctionfunctionRgraphvizobject
+labelFontsizefunctionfunctionRgraphvizobject
+labelJustfunctionfunctionRgraphvizobject
+labelLocfunctionfunctionRgraphvizobject
+labelTextfunctionfunctionRgraphvizobject
+labelWidthfunctionfunctionRgraphvizobject
+laidoutfunctionfunctionRgraphvizobject
+layoutGraphfunctionfunctionRgraphvizx	layoutFun	...
+layoutTypefunctionfunctionRgraphvizobject
+linesfunctionfunctionRgraphvizx	yNULL	type"l"	...
+makeNodeAttrsfunctionfunctionRgraphvizg	labelnodes(g)	shape"ellipse"	fillcolor"#e0e0e0"	...
+namefunctionfunctionRgraphvizobject
+nodeDatafunctionfunctionRgraphvizself	n	attr
+nodeData<-functionfunctionRgraphvizself	n	attr	value
+nodeDataDefaultsfunctionfunctionRgraphvizself	attr
+nodeDataDefaults<-functionfunctionRgraphvizself	attr	value
+numSplinesfunctionfunctionRgraphvizobject
+pieGlyphfunctionfunctionRgraphvizx	xpos	ypos	labelsnames(x)	edges200	radius0.8	densityNULL	angle45	colNULL	borderNULL	ltyNULL	mainNULL	...
+plotfunctionfunctionRgraphvizx	yNULL	type"p"	xlimNULL	ylimNULL	log""	mainNULL	subNULL	xlabNULL	ylabNULL	annpar("ann")	axesTRUE	frame.plot	panel.firstNULL	panel.lastNULL	aspNA	...
+pointListfunctionfunctionRgraphvizobject
+removedEdgesfunctionfunctionRgraphvizgraph
+renderGraphfunctionfunctionRgraphvizx	...
+shapefunctionfunctionRgraphvizobject
+showfunctionfunctionRgraphvizobject
+spfunctionfunctionRgraphvizobject
+splinesfunctionfunctionRgraphvizobject
+stylefunctionfunctionRgraphvizobject
+tailfunctionfunctionRgraphvizx	...
+tofunctionfunctionRgraphvizobject
+toDotfunctionfunctionRgraphvizgraph	filename	...
+toFilefunctionfunctionRgraphvizgraph	layoutType"dot"	filename	fileType"dot"
+txtLabelfunctionfunctionRgraphvizobject
+upRightfunctionfunctionRgraphvizobject

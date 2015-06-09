@@ -1,0 +1,110 @@
+ 
+"Autorise les options spécifiques à VIM
+set nocompatible
+
+"Initialisation de pathogen, un gestionnaire de plugin vim
+call pathogen#infect()
+call pathogen#helptags()
+
+"Active ou désactive la sauvegarde automatique (fichier terminés par un ~)
+set backup
+"set nobackup
+
+"Redirige les backup dans ~/.vim/backup pour ne plus les avoir dans le même fichier que l'original
+if filewritable(expand("~/.vim/backup")) == 2
+	set backupdir=$HOME/.vim/backup
+else
+"Si c'est un système compatible Unix, on crée le répertoire et on l'utilise
+	if has("unix") || has ("win32unix")
+		call system("mkdir $HOME/.vim/backup -p")
+		set backupdir=$HOME/.vim/backup
+	endif
+endif
+
+"Fixe le nombre de retours en arrière possibles
+set undolevels=150
+
+"On recharge automatiquement les fichiers modifiés en dehors de vim
+set autoread
+
+"Lorsqu'on ferme une parenthèse, vim fait clignoter l'ouverture pour montrer où elle se trouve
+set showmatch
+set matchtime=2
+
+"Afficher la commande en cours d'exécution en bas à gauche
+set showcmd
+
+"Choix de l'indentation
+"Indente si la ligne précédente est indentée
+set autoindent
+" Indente après l'ouverture de crochets
+set smartindent
+"Indentation automatique lors d'un programme en C
+set cindent
+
+"Active l'autoindentation des languages de programmation (~/.vim/ftplugin/)
+filetype indent plugin on
+
+"Nombre d'espace par indentation
+"Avec >> et <<
+setlocal shiftwidth=4
+"Avec TAB
+setlocal tabstop=4
+"TAB en mode insertion
+setlocal softtabstop=4
+"Permet de compléter automatique l'indentation de manière approprié avec la touche TAB
+"en considérant comme une tab et non comme une succession d'espaces
+setlocal noexpandtab
+
+syntax match Tab /\t/
+hi Tab gui=underline guifg=blue ctermbg=blue
+syntax match ligne "ligne"
+hi ligne ctermbg=blue
+
+
+"Améliore les tabulations ?
+set smarttab
+
+"Active la numérotation des lignes
+set number
+
+"Modification de la coloration, voir /usr/share/vim/vim73/colors/README
+
+"Change le fond ce qui influe sur le premier plan (light par défaut)
+set background=dark
+
+"Change le schéma de coloration 
+"Voir le fichier /usr/share/vim/vim73/colors pour les options
+colorscheme ron
+
+"Coloration syntaxique
+syntax on
+
+"Forcer une coloration syntaxique particulière
+"set syntax=python
+
+"Rend la recherche indépendante de la casse ou indépendante s'il n'y a pas de majuscule dans la recherche
+"set ignorecase
+"set smartcase
+
+"Permet de cacher des morceaux de code (manual, syntax, indent)
+set foldmethod=indent
+set foldlevel=20
+
+"Complétion des commandes
+set wildmenu
+"Comportement similaire à bash
+set wildmode=longest,list:longest:full
+
+"Autorise l'usage de la souris
+set mouse=a
+
+"Afficher le mode en cours
+set showmode
+
+"Abbréviations
+iab #i #include
+
+"Retour à la ligne après x caractères
+set textwidth=100
+

@@ -1,0 +1,14 @@
+aracnefunctionfunctionminetmim	eps0
+auc.prfunctionfunctionminettable
+auc.rocfunctionfunctionminettable
+build.mimfunctionfunctionminetdataset	estimator"spearman"	disc"none"	nbinssqrt(NROW(dataset))
+clrfunctionfunctionminetmim
+fscoresfunctionfunctionminettable	beta1
+minetfunctionfunctionminetdataset	method"mrnet"	estimator"spearman"	disc"none"	nbinssqrt(NROW(dataset))
+mrnetfunctionfunctionminetmim
+mrnetbfunctionfunctionminetmim
+prfunctionfunctionminettable
+ratesfunctionfunctionminettable
+show.prfunctionfunctionminettable	device-1	...
+show.rocfunctionfunctionminettable	device-1	...
+validatefunctionfunctionminetinet	tnet

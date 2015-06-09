@@ -1,0 +1,345 @@
+aaregfunctionfunctionsurvivalformula	data	weights	subset	na.action	qrtol1e-07	nmin	dfbetaFALSE	taper1	testc("aalen", "variance", "nrisk")	modelFALSE	xFALSE	yFALSE
+agexact.fitfunctionfunctionsurvivalx	y	strata	offset	init	control	weights	method	rownames
+agreg.fitfunctionfunctionsurvivalx	y	strata	offset	init	control	weights	method	rownames
+amldata.framedata.framesurvivalNot a function
+aml$timenumericnumericsurvivalNot a function
+aml$statusnumericnumericsurvivalNot a function
+aml$xfactorfactorsurvivalNot a function
+attrassignfunctionfunctionsurvivalobject	...
+basehazfunctionfunctionsurvivalfit	centeredTRUE
+bladderdata.framedata.framesurvivalNot a function
+bladder$idintegernumericsurvivalNot a function
+bladder$rxnumericnumericsurvivalNot a function
+bladder$numberintegernumericsurvivalNot a function
+bladder$sizeintegernumericsurvivalNot a function
+bladder$stopintegernumericsurvivalNot a function
+bladder$eventnumericnumericsurvivalNot a function
+bladder$enumintegernumericsurvivalNot a function
+bladder1data.framedata.framesurvivalNot a function
+bladder1$idintegernumericsurvivalNot a function
+bladder1$treatmentfactorfactorsurvivalNot a function
+bladder1$numberintegernumericsurvivalNot a function
+bladder1$sizeintegernumericsurvivalNot a function
+bladder1$recurintegernumericsurvivalNot a function
+bladder1$startintegernumericsurvivalNot a function
+bladder1$stopintegernumericsurvivalNot a function
+bladder1$statusnumericnumericsurvivalNot a function
+bladder1$rtumorcharactercharactersurvivalNot a function
+bladder1$rsizecharactercharactersurvivalNot a function
+bladder1$enumnumericnumericsurvivalNot a function
+bladder2data.framedata.framesurvivalNot a function
+bladder2$idintegernumericsurvivalNot a function
+bladder2$rxnumericnumericsurvivalNot a function
+bladder2$numberintegernumericsurvivalNot a function
+bladder2$sizeintegernumericsurvivalNot a function
+bladder2$startintegernumericsurvivalNot a function
+bladder2$stopintegernumericsurvivalNot a function
+bladder2$eventnumericnumericsurvivalNot a function
+bladder2$enumnumericnumericsurvivalNot a function
+cancerdata.framedata.framesurvivalNot a function
+cancer$instnumericnumericsurvivalNot a function
+cancer$timenumericnumericsurvivalNot a function
+cancer$statusnumericnumericsurvivalNot a function
+cancer$agenumericnumericsurvivalNot a function
+cancer$sexnumericnumericsurvivalNot a function
+cancer$ph.ecognumericnumericsurvivalNot a function
+cancer$ph.karnonumericnumericsurvivalNot a function
+cancer$pat.karnonumericnumericsurvivalNot a function
+cancer$meal.calnumericnumericsurvivalNot a function
+cancer$wt.lossnumericnumericsurvivalNot a function
+cchfunctionfunctionsurvivalformula	datasys.parent()	subcoh	id	stratumNULL	cohort.size	methodc("Prentice", "SelfPrentice", "LinYing", "I.Borgan", "II.Borgan")	robustFALSE
+cgddata.framedata.framesurvivalNot a function
+cgd$idintegernumericsurvivalNot a function
+cgd$centerfactorfactorsurvivalNot a function
+cgd$randomDate survivalNot a function
+cgd$treatfactorfactorsurvivalNot a function
+cgd$sexfactorfactorsurvivalNot a function
+cgd$ageintegernumericsurvivalNot a function
+cgd$heightnumericnumericsurvivalNot a function
+cgd$weightnumericnumericsurvivalNot a function
+cgd$inheritfactorfactorsurvivalNot a function
+cgd$steroidsnumericnumericsurvivalNot a function
+cgd$propylacnumericnumericsurvivalNot a function
+cgd$hos.catfactorfactorsurvivalNot a function
+cgd$tstartintegernumericsurvivalNot a function
+cgd$enumintegernumericsurvivalNot a function
+cgd$tstopintegernumericsurvivalNot a function
+cgd$statusintegernumericsurvivalNot a function
+clogitfunctionfunctionsurvivalformula	data	weights	subset	na.action	methodc("exact", "approximate", "efron", "breslow")	...
+clusterfunctionfunctionsurvivalx
+colondata.framedata.framesurvivalNot a function
+colon$idnumericnumericsurvivalNot a function
+colon$studynumericnumericsurvivalNot a function
+colon$rxfactorfactorsurvivalNot a function
+colon$sexnumericnumericsurvivalNot a function
+colon$agenumericnumericsurvivalNot a function
+colon$obstructnumericnumericsurvivalNot a function
+colon$perfornumericnumericsurvivalNot a function
+colon$adherenumericnumericsurvivalNot a function
+colon$nodesnumericnumericsurvivalNot a function
+colon$statusnumericnumericsurvivalNot a function
+colon$differnumericnumericsurvivalNot a function
+colon$extentnumericnumericsurvivalNot a function
+colon$surgnumericnumericsurvivalNot a function
+colon$node4numericnumericsurvivalNot a function
+colon$timenumericnumericsurvivalNot a function
+colon$etypenumericnumericsurvivalNot a function
+cox.zphfunctionfunctionsurvivalfit	transform"km"	globalTRUE
+coxphfunctionfunctionsurvivalformula	data	weights	subset	na.action	init	control	tiesc("efron", "breslow", "exact")	singular.okTRUE	robustFALSE	modelFALSE	xFALSE	yTRUE	tt	method	...
+coxph.controlfunctionfunctionsurvivaleps1e-09	toler.chol.Machine$double.eps^0.75	iter.max20	toler.infsqrt(eps)	outer.max10
+coxph.detailfunctionfunctionsurvivalobject	riskmatFALSE
+coxph.fitfunctionfunctionsurvivalx	y	strata	offset	init	control	weights	method	rownames
+coxph.wtestfunctionfunctionsurvivalvar	b	toler.chol1e-09
+dsurvregfunctionfunctionsurvivalx	mean	scale1	distribution"weibull"	parms
+flchaindata.framedata.framesurvivalNot a function
+flchain$agenumericnumericsurvivalNot a function
+flchain$sexfactorfactorsurvivalNot a function
+flchain$sample.yrnumericnumericsurvivalNot a function
+flchain$kappanumericnumericsurvivalNot a function
+flchain$lambdanumericnumericsurvivalNot a function
+flchain$flc.grpnumericnumericsurvivalNot a function
+flchain$creatininenumericnumericsurvivalNot a function
+flchain$mgusnumericnumericsurvivalNot a function
+flchain$futimeintegernumericsurvivalNot a function
+flchain$deathnumericnumericsurvivalNot a function
+flchain$chapterfactorfactorsurvivalNot a function
+format.Survfunctionfunctionsurvivalx	...
+frailtyfunctionfunctionsurvivalx	distribution"gamma"	...
+frailty.gammafunctionfunctionsurvivalx	sparse(nclass > 5)	theta	df	eps1e-05	methodc("em", "aic", "df", "fixed")	...
+frailty.gaussianfunctionfunctionsurvivalx	sparse(nclass > 5)	theta	df	methodc("reml", "aic", "df", "fixed")	...
+frailty.tfunctionfunctionsurvivalx	sparse(nclass > 5)	theta	df	eps1e-05	tdf5	methodc("aic", "df", "fixed")	...
+heartdata.framedata.framesurvivalNot a function
+heart$startnumericnumericsurvivalNot a function
+heart$stopnumericnumericsurvivalNot a function
+heart$eventnumericnumericsurvivalNot a function
+heart$agenumericnumericsurvivalNot a function
+heart$yearnumericnumericsurvivalNot a function
+heart$surgerynumericnumericsurvivalNot a function
+heart$transplantfactorfactorsurvivalNot a function
+heart$idnumericnumericsurvivalNot a function
+is.na.coxph.penaltyfunctionfunctionsurvivalx
+is.na.ratetablefunctionfunctionsurvivalx
+is.na.Survfunctionfunctionsurvivalx
+is.ratetablefunctionfunctionsurvivalx	verboseFALSE
+is.Survfunctionfunctionsurvivalx
+jasadata.framedata.framesurvivalNot a function
+jasa$birth.dtDate survivalNot a function
+jasa$accept.dtDate survivalNot a function
+jasa$tx.dateDate survivalNot a function
+jasa$fu.dateDate survivalNot a function
+jasa$fustatnumericnumericsurvivalNot a function
+jasa$surgerynumericnumericsurvivalNot a function
+jasa$agenumericnumericsurvivalNot a function
+jasa$futimenumericnumericsurvivalNot a function
+jasa$wait.timenumericnumericsurvivalNot a function
+jasa$transplantnumericnumericsurvivalNot a function
+jasa$mismatchnumericnumericsurvivalNot a function
+jasa$hla.a2numericnumericsurvivalNot a function
+jasa$mscorenumericnumericsurvivalNot a function
+jasa$rejectnumericnumericsurvivalNot a function
+jasa1data.framedata.framesurvivalNot a function
+jasa1$idnumericnumericsurvivalNot a function
+jasa1$startnumericnumericsurvivalNot a function
+jasa1$stopnumericnumericsurvivalNot a function
+jasa1$eventnumericnumericsurvivalNot a function
+jasa1$transplantnumericnumericsurvivalNot a function
+jasa1$agenumericnumericsurvivalNot a function
+jasa1$yearnumericnumericsurvivalNot a function
+jasa1$surgerynumericnumericsurvivalNot a function
+kidneydata.framedata.framesurvivalNot a function
+kidney$idnumericnumericsurvivalNot a function
+kidney$timenumericnumericsurvivalNot a function
+kidney$statusnumericnumericsurvivalNot a function
+kidney$agenumericnumericsurvivalNot a function
+kidney$sexnumericnumericsurvivalNot a function
+kidney$diseasefactorfactorsurvivalNot a function
+kidney$frailnumericnumericsurvivalNot a function
+labels.survregfunctionfunctionsurvivalobject	...
+leukemiadata.framedata.framesurvivalNot a function
+leukemia$timenumericnumericsurvivalNot a function
+leukemia$statusnumericnumericsurvivalNot a function
+leukemia$xfactorfactorsurvivalNot a function
+logandata.framedata.framesurvivalNot a function
+logan$occupationfactorfactorsurvivalNot a function
+logan$foccfactorfactorsurvivalNot a function
+logan$educationintegernumericsurvivalNot a function
+logan$racefactorfactorsurvivalNot a function
+lungdata.framedata.framesurvivalNot a function
+lung$instnumericnumericsurvivalNot a function
+lung$timenumericnumericsurvivalNot a function
+lung$statusnumericnumericsurvivalNot a function
+lung$agenumericnumericsurvivalNot a function
+lung$sexnumericnumericsurvivalNot a function
+lung$ph.ecognumericnumericsurvivalNot a function
+lung$ph.karnonumericnumericsurvivalNot a function
+lung$pat.karnonumericnumericsurvivalNot a function
+lung$meal.calnumericnumericsurvivalNot a function
+lung$wt.lossnumericnumericsurvivalNot a function
+match.ratetablefunctionfunctionsurvivalR	ratetable
+mgusdata.framedata.framesurvivalNot a function
+mgus$idintegernumericsurvivalNot a function
+mgus$ageintegernumericsurvivalNot a function
+mgus$sexfactorfactorsurvivalNot a function
+mgus$dxyrintegernumericsurvivalNot a function
+mgus$pcdxfactorfactorsurvivalNot a function
+mgus$pctimeintegernumericsurvivalNot a function
+mgus$futimeintegernumericsurvivalNot a function
+mgus$deathintegernumericsurvivalNot a function
+mgus$albnumericnumericsurvivalNot a function
+mgus$creatnumericnumericsurvivalNot a function
+mgus$hgbnumericnumericsurvivalNot a function
+mgus$mspikenumericnumericsurvivalNot a function
+mgus1data.framedata.framesurvivalNot a function
+mgus1$idintegernumericsurvivalNot a function
+mgus1$startnumericnumericsurvivalNot a function
+mgus1$stopintegernumericsurvivalNot a function
+mgus1$statusnumericnumericsurvivalNot a function
+mgus1$eventfactorfactorsurvivalNot a function
+mgus1$ageintegernumericsurvivalNot a function
+mgus1$sexfactorfactorsurvivalNot a function
+mgus1$albnumericnumericsurvivalNot a function
+mgus1$creatnumericnumericsurvivalNot a function
+mgus1$hgbnumericnumericsurvivalNot a function
+mgus1$mspikenumericnumericsurvivalNot a function
+mgus2data.framedata.framesurvivalNot a function
+mgus2$idintegernumericsurvivalNot a function
+mgus2$timeintegernumericsurvivalNot a function
+mgus2$statusnumericnumericsurvivalNot a function
+mgus2$eventfactorfactorsurvivalNot a function
+mgus2$ageintegernumericsurvivalNot a function
+mgus2$sexfactorfactorsurvivalNot a function
+mgus2$albnumericnumericsurvivalNot a function
+mgus2$creatnumericnumericsurvivalNot a function
+mgus2$hgbnumericnumericsurvivalNot a function
+mgus2$mspikenumericnumericsurvivalNot a function
+nwtcodata.framedata.framesurvivalNot a function
+nwtco$seqnointegernumericsurvivalNot a function
+nwtco$institintegernumericsurvivalNot a function
+nwtco$histolintegernumericsurvivalNot a function
+nwtco$stageintegernumericsurvivalNot a function
+nwtco$studyintegernumericsurvivalNot a function
+nwtco$relintegernumericsurvivalNot a function
+nwtco$edrelintegernumericsurvivalNot a function
+nwtco$ageintegernumericsurvivalNot a function
+nwtco$in.subcohortlogicallogicalsurvivalNot a function
+ovariandata.framedata.framesurvivalNot a function
+ovarian$futimenumericnumericsurvivalNot a function
+ovarian$fustatnumericnumericsurvivalNot a function
+ovarian$agenumericnumericsurvivalNot a function
+ovarian$resid.dsnumericnumericsurvivalNot a function
+ovarian$rxnumericnumericsurvivalNot a function
+ovarian$ecog.psnumericnumericsurvivalNot a function
+pbcdata.framedata.framesurvivalNot a function
+pbc$idintegernumericsurvivalNot a function
+pbc$timeintegernumericsurvivalNot a function
+pbc$statusintegernumericsurvivalNot a function
+pbc$trtintegernumericsurvivalNot a function
+pbc$agenumericnumericsurvivalNot a function
+pbc$sexfactorfactorsurvivalNot a function
+pbc$ascitesintegernumericsurvivalNot a function
+pbc$hepatointegernumericsurvivalNot a function
+pbc$spidersintegernumericsurvivalNot a function
+pbc$edemanumericnumericsurvivalNot a function
+pbc$bilinumericnumericsurvivalNot a function
+pbc$cholintegernumericsurvivalNot a function
+pbc$albuminnumericnumericsurvivalNot a function
+pbc$copperintegernumericsurvivalNot a function
+pbc$alk.phosnumericnumericsurvivalNot a function
+pbc$astnumericnumericsurvivalNot a function
+pbc$trigintegernumericsurvivalNot a function
+pbc$plateletintegernumericsurvivalNot a function
+pbc$protimenumericnumericsurvivalNot a function
+pbc$stageintegernumericsurvivalNot a function
+pbcseqdata.framedata.framesurvivalNot a function
+pbcseq$idintegernumericsurvivalNot a function
+pbcseq$futimeintegernumericsurvivalNot a function
+pbcseq$statusintegernumericsurvivalNot a function
+pbcseq$trtintegernumericsurvivalNot a function
+pbcseq$agenumericnumericsurvivalNot a function
+pbcseq$sexfactorfactorsurvivalNot a function
+pbcseq$dayintegernumericsurvivalNot a function
+pbcseq$ascitesintegernumericsurvivalNot a function
+pbcseq$hepatointegernumericsurvivalNot a function
+pbcseq$spidersintegernumericsurvivalNot a function
+pbcseq$edemanumericnumericsurvivalNot a function
+pbcseq$bilinumericnumericsurvivalNot a function
+pbcseq$cholintegernumericsurvivalNot a function
+pbcseq$albuminnumericnumericsurvivalNot a function
+pbcseq$alk.phosintegernumericsurvivalNot a function
+pbcseq$astnumericnumericsurvivalNot a function
+pbcseq$plateletintegernumericsurvivalNot a function
+pbcseq$protimenumericnumericsurvivalNot a function
+pbcseq$stageintegernumericsurvivalNot a function
+psplinefunctionfunctionsurvivalx	df4	theta	nterm2.5 * df	degree3	eps0.1	method	Boundary.knotsrange(x)	interceptFALSE	penaltyTRUE	...
+psurvregfunctionfunctionsurvivalq	mean	scale1	distribution"weibull"	parms
+pyearsfunctionfunctionsurvivalformula	data	weights	subset	na.action	rmap	ratetable	scale365.25	expectc("event", "pyears")	modelFALSE	xFALSE	yFALSE	data.frameFALSE
+qsurvregfunctionfunctionsurvivalp	mean	scale1	distribution"weibull"	parms
+ratetablefunctionfunctionsurvival...
+ratetableDatefunctionfunctionsurvivalx
+ratsdata.framedata.framesurvivalNot a function
+rats$litternumericnumericsurvivalNot a function
+rats$rxnumericnumericsurvivalNot a function
+rats$timenumericnumericsurvivalNot a function
+rats$statusnumericnumericsurvivalNot a function
+rats2data.framedata.framesurvivalNot a function
+rats2$idintegernumericsurvivalNot a function
+rats2$trtintegernumericsurvivalNot a function
+rats2$obsintegernumericsurvivalNot a function
+rats2$time1integernumericsurvivalNot a function
+rats2$time2integernumericsurvivalNot a function
+rats2$statusintegernumericsurvivalNot a function
+ridgefunctionfunctionsurvival...	theta	dfnvar/2	eps0.1	scaleTRUE
+stanford2data.framedata.framesurvivalNot a function
+stanford2$idnumericnumericsurvivalNot a function
+stanford2$timenumericnumericsurvivalNot a function
+stanford2$statusnumericnumericsurvivalNot a function
+stanford2$agenumericnumericsurvivalNot a function
+stanford2$t5numericnumericsurvivalNot a function
+stratafunctionfunctionsurvival...	na.groupFALSE	shortlabelFALSE	sep", "
+Survfunctionfunctionsurvivaltime	time2	event	typec("right", "left", "interval", "counting", "interval2", "mstate")	origin0
+survConcordancefunctionfunctionsurvivalformula	data	weights	subset	na.action
+survConcordance.fitfunctionfunctionsurvivaly	x	strata	weight
+survdifffunctionfunctionsurvivalformula	data	subset	na.action	rho0
+survexpfunctionfunctionsurvivalformula	data	weights	subset	na.action	rmap	times	methodc("ederer", "hakulinen", "conditional", "individual.h", "individual.s")	cohortTRUE	conditionalFALSE	ratetable	scale1	se.fit	modelFALSE	xFALSE	yFALSE
+survexp.mnratetablenumericsurvivalNot a function
+survexp.usratetablenumericsurvivalNot a function
+survexp.usrratetablenumericsurvivalNot a function
+survfitfunctionfunctionsurvivalformula	...
+survfit.formulafunctionfunctionsurvivalformula	data	weights	subset	na.action	etype	id	istate	...
+survfitCIfunctionfunctionsurvivalX	Y	weights	id	istate	typec("kaplan-meier", "fleming-harrington", "fh2")	se.fitTRUE	conf.int0.95	conf.typec("log", "log-log", "plain", "none")	conf.lowerc("usual", "peto", "modified")
+survfitcoxph.fitfunctionfunctionsurvivaly	x	wt	x2	risk	newrisk	strata	se.fit	survtype	vartype	varmat	id	y2	strata2	unlistTRUE
+survfitKMfunctionfunctionsurvivalx	y	casewtrep(1, length(x))	typec("kaplan-meier", "fleming-harrington", "fh2")	errorc("greenwood", "tsiatis")	se.fitTRUE	conf.int0.95	conf.typec("log", "log-log", "plain", "none")	conf.lowerc("usual", "peto", "modified")	start.time	new.time
+survobrienfunctionfunctionsurvivalformula	data	subset	na.action	transform
+survpenal.fitfunctionfunctionsurvivalx	y	weights	offset	init	controlvals	dist	scale0	nstrat1	strata	pcols	pattr	assign	parmsNULL
+survregfunctionfunctionsurvivalformula	data	weights	subset	na.action	dist"weibull"	initNULL	scale0	control	parmsNULL	modelFALSE	xFALSE	yTRUE	robustFALSE	scoreFALSE	...
+survreg.controlfunctionfunctionsurvivalmaxiter30	rel.tolerance1e-09	toler.chol1e-10	iter.max	debug0	outer.max10
+survreg.distributionslistlistsurvivalNot a function
+survreg.distributions$extremelist survivalNot a function
+survreg.distributions$logisticlist survivalNot a function
+survreg.distributions$gaussianlist survivalNot a function
+survreg.distributions$weibulllist survivalNot a function
+survreg.distributions$exponentiallist survivalNot a function
+survreg.distributions$rayleighlist survivalNot a function
+survreg.distributions$loggaussianlist survivalNot a function
+survreg.distributions$lognormallist survivalNot a function
+survreg.distributions$loglogisticlist survivalNot a function
+survreg.distributions$tlist survivalNot a function
+survreg.fitfunctionfunctionsurvivalx	y	weights	offset	init	controlvals	dist	scale0	nstrat1	strata	parmsNULL	assign
+survregDtestfunctionfunctionsurvivaldlist	verbose
+survSplitfunctionfunctionsurvivaldata	cut	end	event	start	idNULL	zero0	episodeNULL
+tcutfunctionfunctionsurvivalx	breaks	labels	scale1
+tobindata.framedata.framesurvivalNot a function
+tobin$durablenumericnumericsurvivalNot a function
+tobin$agenumericnumericsurvivalNot a function
+tobin$quantintegernumericsurvivalNot a function
+untangle.specialsfunctionfunctionsurvivaltt	special	order1
+uspop2arraynumericsurvivalNot a function
+veterandata.framedata.framesurvivalNot a function
+veteran$trtnumericnumericsurvivalNot a function
+veteran$celltypefactorfactorsurvivalNot a function
+veteran$timenumericnumericsurvivalNot a function
+veteran$statusnumericnumericsurvivalNot a function
+veteran$karnonumericnumericsurvivalNot a function
+veteran$diagtimenumericnumericsurvivalNot a function
+veteran$agenumericnumericsurvivalNot a function
+veteran$priornumericnumericsurvivalNot a function
