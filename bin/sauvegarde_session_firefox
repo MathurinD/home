@@ -1,0 +1,23 @@
+#!/bin/bash
+#Sauvegarde les sessions firefox, mettre dans la crontab pour le faire régulièrement
+
+heure=`date +"%d.%m.%y_%Hh%M"`
+
+adresse="/home/ubuntu/.mozilla/firefox/yw3qhw6u.default"
+
+cp $adresse/sessionstore.js $adresse/session_backup/backup_$heure
+
+# On ne conserve que les 20 dernières sauvegardes
+backup="$adresse/session_backup/"
+let count=1
+for file in `ls -r $backup`
+do
+    if [ $count -gt 20 ]
+    then 
+        rm $backup/$file
+    else
+        let count=count+1
+    fi
+
+done
+

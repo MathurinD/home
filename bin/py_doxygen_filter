@@ -1,0 +1,2 @@
+#!/bin/bash
+/bioinfo/users/mdorel/src/doxypypy/doxypypy/doxypypy.py -a -c $1

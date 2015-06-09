@@ -1,0 +1,6 @@
+#!/bin/bash
+#-*- coding:utf8 -*-
+
+git checkout master
+git pull
+git checkout -b hotfix

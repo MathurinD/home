@@ -1,0 +1,11 @@
+#!/bin/bash
+#-*- coding:utf8 -*-
+# Wrapper to reduce the size of a pdf using the fact that ps2pdf compresses the pdf
+# Usefull for inkscape output for example
+
+filename=`echo $1 | sed s/\\.pdf$//`
+pdftops $filename.pdf
+ps2pdf $filename.ps
+rm $filename.ps
+
+

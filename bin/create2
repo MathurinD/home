@@ -1,0 +1,21 @@
+#!/usr/bin
+#-*- coding:utf-8 -*-
+
+if [ $# -lt 1 ]
+then
+    echo "Argument recquired"
+fi
+
+if [ ! -e $1 ]
+    if [ $1 = *.tex ]
+    then
+        if [ $# -ge 2 ]
+        then
+            cp ~/bin/template.tex ./
+        fi
+    fi
+then
+else
+    echo 
+fi
+

@@ -1,0 +1,20 @@
+#!/bin/bash
+#-*- utf-8 -*-
+
+# Make pdf from latex file, does not work if a bibtex file has to be done
+if [[ $# > 0 ]]
+then
+    while [[ $1 > 0 ]]
+    do
+        base=`echo $1 | sed s/.tex$//`
+        echo $base
+        pdflatex $1 
+#        bibtex ${base}.aux
+#        pdflatex $1 > /dev/null
+#        pdflatex $1 > /dev/null
+        rm ${base}.aux ${base}.log ${base}.out
+        shift
+    done
+fi
+
+
